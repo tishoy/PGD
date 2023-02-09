@@ -1,0 +1,24 @@
+{
+	"groups":[
+		{
+			"keys":"local_config_json",
+			"name":"local_config"
+		},
+		{
+			"keys":"splash_jpg",
+			"name":"splash"
+		}
+	],
+	"resources":[
+		{
+			"name":"local_config_json",
+			"type":"json",
+			"url":"local_config.json"
+		},
+		{
+			"name":"splash_jpg",
+			"type":"image",
+			"url":"splash.jpg"
+		}
+	]
+}

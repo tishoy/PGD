@@ -1,0 +1,218 @@
+{
+    "games": [
+        null,
+        {
+            "id": 1,
+            "name": "kaihi3",
+            "stageWidth": 640,
+            "stageHeight": 1136,
+            "stageAmount": 30,
+            "cg": true,
+            "guide": true,
+            "res_url": "kaihi/",
+            "select_pics": true,
+            "icon": "",
+            "cn_name": "神回避3",
+            "has_collection": true,
+            "game_ui": [
+                {
+                    "ui": "ui_stage_no",
+                    "type": 7,
+                    "x": 0,
+                    "y": 20
+                },
+                {
+                    "ui": "ui_tip_btn",
+                    "type": 7,
+                    "x": 0,
+                    "y": 20
+                },
+                {
+                    "ui": "ui_menu_btn",
+                    "type": 7,
+                    "x": 0,
+                    "y": 20
+                },
+                {
+                    "ui": "ui_itemCtrlView",
+                    "type": 7,
+                    "x": 0,
+                    "y": 20
+                }
+            ],
+            "advertise": {
+                "banner": {},
+                "interstitial": {
+                    "times": 1,
+                    "startStage": 2
+                },
+                "rewardVedio": {}
+            }
+        },
+        {
+            "id": 2,
+            "name": "skipschool",
+            "stageWidth": 720,
+            "stageHeight": 1280,
+            "stageAmount": 20,
+            "res_url": "skipschool/",
+            "select_pics": true,
+            "icon": "",
+            "cn_name": "我要翘课",
+            "cg": false,
+            "guide": false,
+            "has_collection": true,
+            "game_ui": [
+                {
+                    "ui": "ui_stage_no",
+                    "type": 7,
+                    "x": 0,
+                    "y": 20,
+                    "textPosType": [
+                        1,
+                        5
+                    ],
+                    "textPos": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "text": "关卡#Num",
+                    "textColor": "white"
+                },
+                {
+                    "ui": "ui_hint_btn",
+                    "type": 9,
+                    "x": 130,
+                    "y": 20
+                },
+                {
+                    "ui": "ui_menu_btn",
+                    "type": 9,
+                    "x": 0,
+                    "y": 20
+                },
+                {
+                    "ui": "ui_itemCtrlView",
+                    "type": 2,
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "ui": "ui_left_btn",
+                    "type": 1,
+                    "x": 50,
+                    "y": 300
+                },
+                {
+                    "ui": "ui_right_btn",
+                    "type": 3,
+                    "x": 50,
+                    "y": 300
+                },
+                {
+                    "ui": "ui_buttom_hint_btn",
+                    "type": 2,
+                    "x": 0,
+                    "y": 200
+                }
+            ],
+            "advertise": {
+                "banner": {},
+                "interstitial": {
+                    "times": 1,
+                    "startStage": 2
+                },
+                "rewardVedio": {}
+            }
+        },
+        {
+            "id": 3,
+            "name": "buding",
+            "stageWidth": 640,
+            "stageHeight": 1136,
+            "stageAmount": 20,
+            "res_url": "buding/",
+            "select_pics": true,
+            "icon": "",
+            "cg": true,
+            "guide": true,
+            "cn_name": "冰箱里的布丁被吃掉了",
+            "has_collection": false,
+            "collections": [],
+            "game_ui": [
+                {
+                    "ui": "ui_stage_no",
+                    "type": 7,
+                    "x": 20,
+                    "y": 20,
+                    "text": "#Num",
+                    "textPosType": [
+                        0,
+                        6
+                    ],
+                    "textPos": {
+                        "x": 30,
+                        "y": 2
+                    },
+                    "textColor": "white"
+                },
+                {
+                    "ui": "ui_hint_btn",
+                    "type": 9,
+                    "x": 130,
+                    "y": 20
+                },
+                {
+                    "ui": "ui_itemCtrlView",
+                    "type": 2,
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "ui": "ui_left_btn",
+                    "type": 1,
+                    "x": 50,
+                    "y": 400
+                },
+                {
+                    "ui": "ui_right_btn",
+                    "type": 3,
+                    "x": 50,
+                    "y": 400
+                },
+                {
+                    "ui": "ui_menu_btn",
+                    "type": 9,
+                    "x": 30,
+                    "y": 20
+                }
+            ],
+            "pops": {
+                "pop_clear": {
+                    "picture": {
+                        "x": 0,
+                        "y": 200,
+                        "posType": 8,
+                        "default": true,
+                        "res": ""
+                    },
+                    "pop": {},
+                    "retry": {},
+                    "collection": {},
+                    "select": {}
+                },
+                "pop_over": {},
+                "pop_menu": {},
+                "pop_hint": {}
+            },
+            "advertise": {
+                "banner": {},
+                "interstitial": {
+                    "times": 1,
+                    "startStage": 2
+                },
+                "rewardVedio": {}
+            }
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "settings": {
+        "show_name": false,
+        "show_number": false,
+        "is_default": true,
+        "mask": true,
+        "default": {
+            "amount": 20,
+            "regEx": "st#ibtn_png",
+            "replace": "#i",
+            "has_clear": true,
+            "clear_pos": {
+                "x": 0,
+                "y": 0
+            },
+            "has_lock": false,
+            "lock_pos": {
+                "x": 0,
+                "y": 0
+            }
+        }
+    },
+    "stage": [
+        {
+            "name": "",
+            "res": "",
+            "pos": {
+                "x": 0,
+                "y": 0
+            },
+            "clear_pos": {
+                "x": 0,
+                "y": 0
+            },
+            "lock_pos": {
+                "x": 0,
+                "y": 0
+            }
+        }
+    ]
+}

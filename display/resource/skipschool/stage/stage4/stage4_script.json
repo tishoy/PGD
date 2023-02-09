@@ -1,0 +1,1160 @@
+{
+    "init": [
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite",
+            "props": {
+                "y": 0,
+                "x": 0,
+                "texture": "b02_room.png"
+            },
+            "nodeParent": 2,
+            "label": "Sprite",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 3,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,locker1L",
+            "props": {
+                "y": 251,
+                "x": 127,
+                "var": "locker1L",
+                "texture": "m12_locker1.png"
+            },
+            "nodeParent": 2,
+            "label": "locker1L",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 4,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,stand",
+            "props": {
+                "y": 578,
+                "x": 935,
+                "var": "stand",
+                "texture": "m14_stand.png"
+            },
+            "nodeParent": 2,
+            "label": "stand",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 6,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,locker1R",
+            "props": {
+                "y": 251,
+                "x": 220,
+                "var": "locker1R",
+                "texture": "m12_locker1.png"
+            },
+            "nodeParent": 2,
+            "label": "locker1R",
+            "isOpen": true,
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 5,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,chair2",
+            "props": {
+                "y": 466,
+                "x": 1334,
+                "var": "chair2",
+                "texture": "m156_chair2.png"
+            },
+            "nodeParent": 2,
+            "label": "chair2",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 25,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,buka3",
+            "props": {
+                "y": 346,
+                "x": 1018,
+                "visible": false,
+                "var": "buka3",
+                "texture": "c03_buka3.png"
+            },
+            "nodeParent": 2,
+            "label": "buka3",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 24,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,man2",
+            "props": {
+                "y": 405,
+                "x": 1216,
+                "visible": false,
+                "var": "man2",
+                "texture": "c11_man2.png"
+            },
+            "nodeParent": 2,
+            "label": "man2",
+            "isOpen": true,
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 18,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,buka57",
+            "props": {
+                "y": 428,
+                "x": 1018,
+                "visible": false,
+                "var": "buka57",
+                "texture": "c168_buka57.png"
+            },
+            "nodeParent": 2,
+            "label": "buka57",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 7,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,man1",
+            "props": {
+                "y": 304,
+                "x": 992,
+                "var": "man1",
+                "texture": "c10_man1.png"
+            },
+            "nodeParent": 2,
+            "label": "man1",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 9,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite",
+            "props": {
+                "y": 609,
+                "x": 1118,
+                "texture": "c12_woman1.png"
+            },
+            "nodeParent": 2,
+            "label": "Sprite",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 10,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite",
+            "props": {
+                "y": 589,
+                "x": 792,
+                "texture": "c13_ota1.png"
+            },
+            "nodeParent": 2,
+            "label": "Sprite",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 11,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,trashbox1L",
+            "props": {
+                "y": 443,
+                "x": 380,
+                "var": "trashbox1L",
+                "texture": "m15_trashbox1.png"
+            },
+            "nodeParent": 2,
+            "label": "trashbox1L",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 12,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,banana",
+            "props": {
+                "y": 604,
+                "x": 580,
+                "visible": false,
+                "var": "banana",
+                "texture": "m17_banana.png"
+            },
+            "nodeParent": 2,
+            "label": "banana",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 14,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,locker2R",
+            "props": {
+                "y": 251,
+                "x": 220,
+                "visible": false,
+                "var": "locker2R",
+                "texture": "m13_locker2.png"
+            },
+            "nodeParent": 2,
+            "label": "locker2R",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 16,
+            "child": [],
+            "$HIDDEN": true
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,tabaco",
+            "props": {
+                "y": 506,
+                "x": 253,
+                "visible": false,
+                "var": "tabaco",
+                "texture": "m18_tabaco.png"
+            },
+            "nodeParent": 2,
+            "label": "tabaco",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 15,
+            "child": [],
+            "$HIDDEN": false
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,locker2L",
+            "props": {
+                "y": 251,
+                "x": 127,
+                "visible": false,
+                "var": "locker2L",
+                "texture": "m13_locker2.png"
+            },
+            "nodeParent": 2,
+            "label": "locker2L",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 17,
+            "child": [],
+            "$HIDDEN": true
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,boss2",
+            "props": {
+                "y": 732,
+                "x": 943,
+                "visible": false,
+                "var": "boss2",
+                "texture": "c06_boss2.png"
+            },
+            "nodeParent": 2,
+            "label": "boss2",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 19,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,gori1",
+            "props": {
+                "y": 358,
+                "x": -344,
+                "var": "gori1",
+                "texture": "c15_gori1.png"
+            },
+            "nodeParent": 2,
+            "label": "gori1",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 20,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,trashbox1R",
+            "props": {
+                "y": 443,
+                "x": 448,
+                "var": "trashbox1R",
+                "texture": "m15_trashbox1.png"
+            },
+            "nodeParent": 2,
+            "label": "trashbox1R",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 21,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,trashbox2R",
+            "props": {
+                "y": 535,
+                "x": 422,
+                "visible": false,
+                "var": "trashbox2R",
+                "texture": "m16_trashbox2.png"
+            },
+            "nodeParent": 2,
+            "label": "trashbox2R",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 22,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,trashbox2L",
+            "props": {
+                "y": 547,
+                "x": 338,
+                "visible": false,
+                "var": "trashbox2L",
+                "texture": "m16_trashbox2.png",
+                "rotation": 15
+            },
+            "nodeParent": 2,
+            "label": "trashbox2L",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 13,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,boss1",
+            "props": {
+                "y": 669,
+                "x": -252,
+                "var": "boss1",
+                "texture": "c05_boss1.png"
+            },
+            "nodeParent": 2,
+            "label": "boss1",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 23,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,buka2",
+            "props": {
+                "y": 342,
+                "x": 792,
+                "visible": false,
+                "var": "buka2",
+                "texture": "c02_buka2.png"
+            },
+            "nodeParent": 2,
+            "label": "buka2",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 26,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,buka7",
+            "props": {
+                "y": 518,
+                "x": 422,
+                "visible": false,
+                "var": "buka7",
+                "texture": "c20_buka7.png",
+                "scaleX": -1
+            },
+            "nodeParent": 2,
+            "label": "buka7",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 27,
+            "child": [],
+            "$HIDDEN": true
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,mActor",
+            "props": {
+                "y": 732,
+                "x": 253,
+                "var": "mActor",
+                "texture": "c67_buka0.png"
+            },
+            "nodeParent": 2,
+            "label": "mActor",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 28,
+            "child": []
+        }
+    ],
+    "keys": [
+        {
+            "id": 0,
+            "isOn": false
+        }
+    ],
+    "events": [
+        {
+            "id": 0,
+            "bind": "locker1L",
+            "type": "touch",
+            "on": [
+                0,
+                1,
+                37
+            ],
+            "once": false,
+            "item": null
+        },
+        {
+            "id": 1,
+            "bind": "locker1R",
+            "type": "touch",
+            "on": [
+                2,
+                3,
+                6,
+                37
+            ],
+            "once": false,
+            "item": null
+        },
+        {
+            "id": 2,
+            "bind": "locker2L",
+            "type": "touch",
+            "on": [
+                4,
+                5,
+                37
+            ],
+            "once": false,
+            "item": null
+        },
+        {
+            "id": 3,
+            "bind": "locker2R",
+            "type": "touch",
+            "on": [
+                9,
+                10,
+                7,
+                37
+            ],
+            "once": false,
+            "item": null
+        },
+        {
+            "id": 4,
+            "bind": "trashbox1L",
+            "type": "touch",
+            "on": [
+                11,
+                12,
+                38
+            ],
+            "once": true,
+            "item": null
+        },
+        {
+            "id": 5,
+            "bind": "trashbox1R",
+            "type": "touch",
+            "on": [
+                13,
+                14,
+                15,
+                38
+            ],
+            "once": true,
+            "item": null
+        },
+        {
+            "id": 6,
+            "bind": "chair2",
+            "type": "touch",
+            "on": [
+                19,
+                20
+            ],
+            "once": false,
+            "item": null
+        },
+        {
+            "id": 7,
+            "bind": "banana",
+            "type": "touch",
+            "on": [
+                15,
+                16,
+                17
+            ],
+            "once": false,
+            "item": null
+        },
+        {
+            "id": 8,
+            "bind": "tabaco",
+            "type": "touch",
+            "on": [
+                6,
+                7,
+                8,
+                21,
+                46,
+                22,
+                24,
+                48
+            ],
+            "once": false,
+            "item": null
+        },
+        {
+            "id": 9,
+            "bind": "man1",
+            "type": "use_item",
+            "on": [
+                25,
+                26,
+                24,
+                23,
+                47
+            ],
+            "once": false,
+            "item": "1"
+        },
+        {
+            "id": 10,
+            "bind": "stand",
+            "type": "touch",
+            "on": [
+                22,
+                30,
+                28,
+                35,
+                34,
+                24,
+                32
+            ],
+            "once": false,
+            "lock": [
+                {
+                    "id": "0",
+                    "isOn": true
+                }
+            ],
+            "item": ""
+        },
+        {
+            "id": 11,
+            "bind": "stand",
+            "type": "use_item",
+            "on": [
+                22,
+                27,
+                45,
+                18,
+                29,
+                24,
+                36,
+                24,
+                33
+            ],
+            "once": false,
+            "lock": [
+                {
+                    "id": "0",
+                    "isOn": true
+                }
+            ],
+            "item": "0"
+        }
+    ],
+    "items": [
+        {
+            "id": 0,
+            "name": "",
+            "res": "m156_chair2_pop_png"
+        },
+        {
+            "id": 1,
+            "name": "",
+            "res": "m17_banana_pop_png"
+        },
+        {
+            "id": 2,
+            "name": "",
+            "res": "m18_tabaco_pop_png"
+        }
+    ],
+    "actions": [
+        {
+            "id": 0,
+            "actor": "locker1L",
+            "todo": {
+                "props": {
+                    "visible": false
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 1,
+            "actor": "locker2L",
+            "todo": {
+                "props": {
+                    "visible": true
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 2,
+            "actor": "locker1R",
+            "todo": {
+                "props": {
+                    "visible": false
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 3,
+            "actor": "locker2R",
+            "todo": {
+                "props": {
+                    "visible": true
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 4,
+            "actor": "locker2L",
+            "todo": {
+                "props": {
+                    "visible": false
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 5,
+            "actor": "locker1L",
+            "todo": {
+                "props": {
+                    "visible": true
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 6,
+            "actor": "tabaco",
+            "todo": {
+                "props": {
+                    "visible": true
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 7,
+            "actor": "tabaco",
+            "todo": {
+                "props": {
+                    "visible": false
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 8,
+            "actor": "",
+            "todo": {
+                "props": {},
+                "type": "item",
+                "item": "2"
+            }
+        },
+        {
+            "id": 9,
+            "actor": "locker2R",
+            "todo": {
+                "props": {
+                    "visible": false
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 10,
+            "actor": "locker1R",
+            "todo": {
+                "props": {
+                    "visible": true
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 11,
+            "actor": "trashbox1L",
+            "todo": {
+                "props": {
+                    "visible": false
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 12,
+            "actor": "trashbox2L",
+            "todo": {
+                "props": {
+                    "visible": true
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 13,
+            "actor": "trashbox1R",
+            "todo": {
+                "props": {
+                    "visible": false
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 14,
+            "actor": "trashbox2R",
+            "todo": {
+                "props": {
+                    "visible": true
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 15,
+            "actor": "banana",
+            "todo": {
+                "props": {
+                    "visible": true
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 16,
+            "actor": "banana",
+            "todo": {
+                "props": {
+                    "visible": false
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 17,
+            "actor": "mActor",
+            "todo": {
+                "props": {},
+                "type": "item",
+                "item": "1"
+            }
+        },
+        {
+            "id": 18,
+            "actor": "buka57",
+            "todo": {
+                "props": {
+                    "visible": false
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 19,
+            "actor": "chair2",
+            "todo": {
+                "props": {
+                    "visible": false
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 20,
+            "actor": "mActor",
+            "todo": {
+                "props": {},
+                "type": "item",
+                "item": "0"
+            }
+        },
+        {
+            "id": 21,
+            "actor": "gori1",
+            "todo": {
+                "props": {
+                    "x": "60"
+                },
+                "type": "tween",
+                "time": "500"
+            }
+        },
+        {
+            "id": 22,
+            "actor": "mActor",
+            "todo": {
+                "props": {
+                    "visible": false
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 23,
+            "actor": "man2",
+            "todo": {
+                "props": {
+                    "visible": false
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 24,
+            "actor": "mActor",
+            "todo": {
+                "props": {},
+                "type": "wait",
+                "time": "1000"
+            }
+        },
+        {
+            "id": 25,
+            "actor": "man2",
+            "todo": {
+                "props": {
+                    "visible": true
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 26,
+            "actor": "man1",
+            "todo": {
+                "props": {
+                    "visible": false
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 27,
+            "actor": "buka57",
+            "todo": {
+                "props": {
+                    "visible": true
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 28,
+            "actor": "boss1",
+            "todo": {
+                "props": {
+                    "x": "937",
+                    "visible": true
+                },
+                "type": "tween",
+                "time": "2000"
+            }
+        },
+        {
+            "id": 29,
+            "actor": "buka2",
+            "todo": {
+                "props": {
+                    "visible": true
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 30,
+            "actor": "buka3",
+            "todo": {
+                "props": {
+                    "visible": true
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 31,
+            "actor": "buka3",
+            "todo": {
+                "props": {
+                    "visible": false
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 32,
+            "actor": "mActor",
+            "todo": {
+                "props": {},
+                "type": "over",
+                "res": "go01_png"
+            }
+        },
+        {
+            "id": 33,
+            "actor": "mActor",
+            "todo": {
+                "props": {},
+                "type": "clear",
+                "res": "cl01_png"
+            }
+        },
+        {
+            "id": 34,
+            "actor": "boss2",
+            "todo": {
+                "props": {
+                    "visible": true
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 35,
+            "actor": "boss1",
+            "todo": {
+                "props": {
+                    "visible": false
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 36,
+            "actor": "buka2",
+            "todo": {
+                "props": {
+                    "x": "640",
+                    "visible": true
+                },
+                "type": "tween",
+                "time": "500"
+            }
+        },
+        {
+            "id": 37,
+            "actor": "mActor",
+            "todo": {
+                "props": {},
+                "type": "sound",
+                "res": "locker_mp3"
+            }
+        },
+        {
+            "id": 38,
+            "actor": "mActor",
+            "todo": {
+                "props": {},
+                "type": "sound",
+                "res": "drop_mp3"
+            }
+        },
+        {
+            "id": 39,
+            "actor": "mActor",
+            "todo": {
+                "props": {},
+                "type": "sound",
+                "res": "set_mp3"
+            }
+        },
+        {
+            "id": 40,
+            "actor": "mActor",
+            "todo": {
+                "props": {},
+                "type": "sound",
+                "res": "bukaAway_mp3"
+            }
+        },
+        {
+            "id": 41,
+            "actor": "mActor",
+            "todo": {
+                "props": {},
+                "type": "sound",
+                "res": "set_mp3"
+            }
+        },
+        {
+            "id": 42,
+            "actor": "mActor",
+            "todo": {
+                "props": {},
+                "type": "sound",
+                "res": "set_mp3"
+            }
+        },
+        {
+            "id": 43,
+            "actor": "mActor",
+            "todo": {
+                "props": {},
+                "type": "sound",
+                "res": "question_mp3"
+            }
+        },
+        {
+            "id": 44,
+            "actor": "mActor",
+            "todo": {
+                "props": {
+                    "visible": true
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 45,
+            "actor": "boss1",
+            "todo": {
+                "props": {
+                    "x": "1600",
+                    "visible": true
+                },
+                "type": "tween",
+                "time": "1200"
+            }
+        },
+        {
+            "id": 46,
+            "actor": "buka7",
+            "todo": {
+                "props": {
+                    "visible": true
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 47,
+            "actor": "",
+            "todo": {
+                "props": {},
+                "type": "key",
+                "key": {
+                    "id": 0,
+                    "isOn": true
+                }
+            }
+        },
+        {
+            "id": 48,
+            "actor": "mActor",
+            "todo": {
+                "props": {},
+                "type": "over",
+                "res": "go02_png"
+            }
+        }
+    ],
+    "animates": [],
+    "hints": "用香蕉击退模特！;击退男人后，将椅子拖向台座！"
+}

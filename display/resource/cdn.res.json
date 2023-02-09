@@ -1,0 +1,20 @@
+{
+    "groups": [
+        {
+            "keys": "game_config_json,notice_config_json",
+            "name": "cdn_game_config"
+        }
+    ],
+    "resources": [
+        {
+            "name": "game_config_json",
+            "type": "json",
+            "url": "game_config.json"
+        },
+        {
+            "name": "notice_config_json",
+            "type": "json",
+            "url": "notice_config.json"
+        }
+    ]
+}

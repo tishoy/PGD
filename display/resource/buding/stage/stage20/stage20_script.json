@@ -1,0 +1,963 @@
+{
+    "init": [
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite",
+            "props": {
+                "y": 0,
+                "x": 0,
+                "texture": "b01_ground.png"
+            },
+            "nodeParent": 2,
+            "label": "Sprite",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 3,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite",
+            "props": {
+                "y": 78,
+                "x": 0,
+                "texture": "m115_gate.png"
+            },
+            "nodeParent": 2,
+            "label": "Sprite",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 4,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite",
+            "props": {
+                "y": 518,
+                "x": 481,
+                "var": "colors1",
+                "texture": "m116_colors1.png"
+            },
+            "nodeParent": 2,
+            "label": "Sprite",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 6,
+            "child": [],
+            "$HIDDEN": false
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite",
+            "props": {
+                "y": 667,
+                "x": 597,
+                "texture": "m114_number.png",
+                "scaleX": -1
+            },
+            "nodeParent": 2,
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 7,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,step",
+            "props": {
+                "y": 487,
+                "x": 208,
+                "var": "step",
+                "texture": "m118_step.png"
+            },
+            "nodeParent": 2,
+            "label": "step",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 8,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,ota10",
+            "props": {
+                "y": 155,
+                "x": 192,
+                "var": "ota10",
+                "texture": "c92_ota10.png"
+            },
+            "nodeParent": 2,
+            "label": "ota10",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 9,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,wall",
+            "props": {
+                "y": 166,
+                "x": 871,
+                "var": "wall",
+                "texture": "m113_wall.png"
+            },
+            "nodeParent": 2,
+            "label": "wall",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 10,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,chalk",
+            "props": {
+                "y": 591,
+                "x": 906,
+                "var": "chalk",
+                "texture": "m120_chalk.png"
+            },
+            "nodeParent": 2,
+            "label": "chalk",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 12,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite",
+            "props": {
+                "y": 344,
+                "x": 1090,
+                "texture": "c99_yanB7.png"
+            },
+            "nodeParent": 2,
+            "label": "Sprite",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 13,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite",
+            "props": {
+                "y": 292,
+                "x": 1302,
+                "texture": "c98_yanA13.png"
+            },
+            "nodeParent": 2,
+            "label": "Sprite",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 14,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,ota11",
+            "props": {
+                "y": 195,
+                "x": 154,
+                "visible": false,
+                "var": "ota11",
+                "texture": "c93_ota11.png"
+            },
+            "nodeParent": 2,
+            "label": "ota11",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 15,
+            "child": [],
+            "$HIDDEN": true
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,buka32",
+            "props": {
+                "y": 376,
+                "x": 97,
+                "visible": false,
+                "var": "buka32",
+                "texture": "c96_buka32.png"
+            },
+            "nodeParent": 2,
+            "label": "buka32",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 16,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,line",
+            "props": {
+                "y": 739,
+                "x": 387,
+                "visible": false,
+                "var": "line",
+                "texture": "m119_line.png"
+            },
+            "nodeParent": 2,
+            "label": "line",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 17,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,colors2",
+            "props": {
+                "y": 739,
+                "x": 409,
+                "visible": false,
+                "var": "colors2",
+                "texture": "m117_colors2.png"
+            },
+            "nodeParent": 2,
+            "label": "colors2",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 18,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,buka33",
+            "props": {
+                "y": 312,
+                "x": 938,
+                "visible": false,
+                "var": "buka33",
+                "texture": "c97_buka33.png"
+            },
+            "nodeParent": 2,
+            "label": "buka33",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 19,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,ota12",
+            "props": {
+                "y": 419,
+                "x": 354,
+                "visible": false,
+                "var": "ota12",
+                "texture": "c94_ota12.png"
+            },
+            "nodeParent": 2,
+            "label": "ota12",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 20,
+            "child": [],
+            "$HIDDEN": true
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,ota13",
+            "props": {
+                "y": 411,
+                "x": 354,
+                "visible": false,
+                "var": "ota13",
+                "texture": "c95_ota13.png"
+            },
+            "nodeParent": 2,
+            "label": "ota13",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 21,
+            "child": [],
+            "$HIDDEN": true
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,mActor",
+            "props": {
+                "y": 720,
+                "x": 172,
+                "var": "mActor",
+                "texture": "c67_buka0.png"
+            },
+            "nodeParent": 2,
+            "label": "mActor",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 22,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,gori1",
+            "props": {
+                "y": 344,
+                "x": 440,
+                "visible": false,
+                "var": "gori1",
+                "texture": "c15_gori1.png"
+            },
+            "nodeParent": 2,
+            "label": "gori1",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 23,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,buka7",
+            "props": {
+                "y": 356,
+                "x": 1140,
+                "visible": false,
+                "var": "buka7",
+                "texture": "c20_buka7.png",
+                "scaleX": -1
+            },
+            "nodeParent": 2,
+            "label": "buka7",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 25,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,helper",
+            "props": {
+                "y": 692,
+                "x": 284,
+                "width": 355,
+                "visible": true,
+                "var": "helper",
+                "texture": "stage20/m119_line.png",
+                "pivotY": -17,
+                "pivotX": -28,
+                "height": 259,
+                "alpha": 0
+            },
+            "nodeParent": 2,
+            "label": "helper",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 26,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,buka53",
+            "props": {
+                "y": 734.5,
+                "x": 393,
+                "visible": false,
+                "var": "buka53",
+                "texture": "c164_buka53.png"
+            },
+            "nodeParent": 2,
+            "label": "buka53",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 25,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,boss1",
+            "props": {
+                "y": 685,
+                "x": -242,
+                "var": "boss1",
+                "texture": "c05_boss1.png"
+            },
+            "nodeParent": 2,
+            "label": "boss1",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 24,
+            "child": []
+        }
+    ],
+    "keys": [
+        {
+            "id": 0,
+            "isOn": false
+        },
+        {
+            "id": 1,
+            "isOn": false
+        }
+    ],
+    "events": [
+        {
+            "id": 0,
+            "bind": "colors1",
+            "type": "touch",
+            "on": [
+                0,
+                1
+            ],
+            "once": true,
+            "lock": [],
+            "item": null
+        },
+        {
+            "id": 1,
+            "bind": "chalk",
+            "type": "touch",
+            "on": [
+                2,
+                3
+            ],
+            "once": true,
+            "lock": [],
+            "item": null
+        },
+        {
+            "id": 2,
+            "bind": "step",
+            "type": "touch",
+            "on": [
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                6,
+                8,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                6,
+                12,
+                35,
+                13,
+                8,
+                11,
+                14,
+                15,
+                16,
+                17
+            ],
+            "once": true,
+            "lock": [],
+            "item": null
+        },
+        {
+            "id": 3,
+            "bind": "wall",
+            "type": "use_item",
+            "on": [
+                4,
+                18,
+                20,
+                19,
+                33,
+                34,
+                21,
+                22,
+                23
+            ],
+            "once": false,
+            "lock": [],
+            "item": "0"
+        },
+        {
+            "id": 4,
+            "bind": "helper",
+            "type": "use_item",
+            "on": [
+                24,
+                25,
+                31
+            ],
+            "once": false,
+            "lock": [],
+            "item": "0"
+        },
+        {
+            "id": 5,
+            "bind": "helper",
+            "type": "use_item",
+            "on": [
+                26,
+                27,
+                32
+            ],
+            "once": false,
+            "lock": [],
+            "item": "1"
+        },
+        {
+            "id": 6,
+            "bind": "helper",
+            "type": "touch",
+            "on": [
+                4,
+                28,
+                29,
+                30
+            ],
+            "once": false,
+            "lock": [
+                {
+                    "id": "0",
+                    "isOn": true
+                },
+                {
+                    "id": "1",
+                    "isOn": true
+                }
+            ],
+            "item": null
+        }
+    ],
+    "items": [
+        {
+            "id": 0,
+            "name": "",
+            "res": "m120_chalk_pop_png"
+        },
+        {
+            "id": 1,
+            "name": "",
+            "res": "m116_colors1_pop_png"
+        }
+    ],
+    "actions": [
+        {
+            "id": 0,
+            "actor": "colors1",
+            "todo": {
+                "props": {
+                    "visible": false
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 1,
+            "actor": "",
+            "todo": {
+                "props": {},
+                "type": "item",
+                "item": "1"
+            }
+        },
+        {
+            "id": 2,
+            "actor": "chalk",
+            "todo": {
+                "props": {
+                    "visible": false
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 3,
+            "actor": "mActor",
+            "todo": {
+                "props": {},
+                "type": "item",
+                "item": "0"
+            }
+        },
+        {
+            "id": 4,
+            "actor": "mActor",
+            "todo": {
+                "props": {
+                    "visible": false
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 5,
+            "actor": "ota10",
+            "todo": {
+                "props": {
+                    "x": 180,
+                    "y": 200,
+                    "visible": false
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 6,
+            "actor": "buka32",
+            "todo": {
+                "props": {
+                    "x": 100,
+                    "y": 375,
+                    "visible": true
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 7,
+            "actor": "ota11",
+            "todo": {
+                "props": {
+                    "x": 160,
+                    "y": 195,
+                    "visible": true
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 8,
+            "actor": "mActor",
+            "todo": {
+                "props": {},
+                "type": "wait",
+                "time": "500"
+            }
+        },
+        {
+            "id": 9,
+            "actor": "ota11",
+            "todo": {
+                "props": {
+                    "x": 170,
+                    "y": 195,
+                    "visible": true
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 10,
+            "actor": "step",
+            "todo": {
+                "props": {
+                    "x": 220,
+                    "y": 487,
+                    "visible": true
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 11,
+            "actor": "buka32",
+            "todo": {
+                "props": {
+                    "visible": false
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 12,
+            "actor": "ota10",
+            "todo": {
+                "props": {
+                    "visible": false
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 13,
+            "actor": "ota12",
+            "todo": {
+                "props": {
+                    "visible": true
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 14,
+            "actor": "buka7",
+            "todo": {
+                "props": {
+                    "x": 70,
+                    "y": 500,
+                    "scaleX": 1,
+                    "visible": true
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 15,
+            "actor": "ota12",
+            "todo": {
+                "props": {
+                    "visible": false
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 16,
+            "actor": "ota13",
+            "todo": {
+                "props": {
+                    "visible": true
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 17,
+            "actor": "mActor",
+            "todo": {
+                "props": {},
+                "type": "over",
+                "res": "go09_png"
+            }
+        },
+        {
+            "id": 18,
+            "actor": "gori1",
+            "todo": {
+                "props": {
+                    "visible": true
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 19,
+            "actor": "gori1",
+            "todo": {
+                "props": {
+                    "x": 680,
+                    "visible": true
+                },
+                "type": "tween",
+                "time": 1000
+            }
+        },
+        {
+            "id": 20,
+            "actor": "buka33",
+            "todo": {
+                "props": {
+                    "visible": true
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 21,
+            "actor": "",
+            "todo": {
+                "props": {},
+                "type": "sound",
+                "res": "ex_mp3"
+            }
+        },
+        {
+            "id": 22,
+            "actor": "mActor",
+            "todo": {
+                "props": {},
+                "type": "wait",
+                "time": "1000"
+            }
+        },
+        {
+            "id": 23,
+            "actor": "mActor",
+            "todo": {
+                "props": {},
+                "type": "over",
+                "res": "go08_png"
+            }
+        },
+        {
+            "id": 24,
+            "actor": "line",
+            "todo": {
+                "props": {
+                    "visible": true
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 25,
+            "actor": "mActor",
+            "todo": {
+                "props": {},
+                "type": "sound",
+                "res": "dig_mp3"
+            }
+        },
+        {
+            "id": 26,
+            "actor": "colors2",
+            "todo": {
+                "props": {
+                    "visible": true
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 27,
+            "actor": "mActor",
+            "todo": {
+                "props": {},
+                "type": "sound",
+                "res": "paint_mp3"
+            }
+        },
+        {
+            "id": 28,
+            "actor": "buka53",
+            "todo": {
+                "props": {
+                    "visible": true
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 29,
+            "actor": "boss1",
+            "todo": {
+                "props": {
+                    "x": 1200,
+                    "visible": true
+                },
+                "type": "tween",
+                "time": 2000
+            }
+        },
+        {
+            "id": 30,
+            "actor": "mActor",
+            "todo": {
+                "props": {},
+                "type": "clear",
+                "res": "cl09_png"
+            }
+        },
+        {
+            "id": 31,
+            "actor": "mActor",
+            "todo": {
+                "props": {},
+                "type": "key",
+                "key": {
+                    "id": "0",
+                    "isOn": true
+                }
+            }
+        },
+        {
+            "id": 32,
+            "actor": "mActor",
+            "todo": {
+                "props": {},
+                "type": "key",
+                "key": {
+                    "id": "1",
+                    "isOn": true
+                }
+            }
+        },
+        {
+            "id": 33,
+            "actor": "buka7",
+            "todo": {
+                "props": {
+                    "x": 1080,
+                    "y": 470,
+                    "scaleX": -1,
+                    "visible": true
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 34,
+            "actor": "buka33",
+            "todo": {
+                "props": {
+                    "visible": false
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 35,
+            "actor": "ota11",
+            "todo": {
+                "props": {
+                    "visible": false
+                },
+                "type": "simple"
+            }
+        }
+    ],
+    "animates": [],
+    "hints": "没有可以躲藏的地方，所以伪装吧！;将油漆粉笔拖到号码牌前！"
+}

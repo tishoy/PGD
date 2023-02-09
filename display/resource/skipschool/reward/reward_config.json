@@ -1,0 +1,71 @@
+{
+    "type": 2,
+    "reward": [
+        {
+            "type": 3,
+            "rate": 0,
+            "res": "lottery_hint_png",
+            "position": {
+                "x": 0,
+                "y": -180,
+                "rotation": 0
+            },
+            "rotation": 0
+        },
+        {
+            "type": 1,
+            "rate": 1,
+            "res": "lottery_stage_png",
+            "position": {
+                "x": -170,
+                "y": -100,
+                "rotation": 300
+            },
+            "rotation": 60
+        },
+        {
+            "type": 4,
+            "rate": 4,
+            "res": "lottery_collection_png",
+            "position": {
+                "x": -170,
+                "y": 100,
+                "rotation": 240
+            },
+            "rotation": 120
+        },
+        {
+            "type": 3,
+            "rate": 0,
+            "res": "lottery_hint_png",
+            "position": {
+                "x": 0,
+                "y": 180,
+                "rotation": 180
+            },
+            "rotation": 180
+        },
+        {
+            "type": 1,
+            "rate": 1,
+            "res": "lottery_stage_png",
+            "position": {
+                "x": 170,
+                "y": 100,
+                "rotation": 120
+            },
+            "rotation": 240
+        },
+        {
+            "type": 4,
+            "rate": 4,
+            "res": "lottery_collection_png",
+            "position": {
+                "x": 170,
+                "y": -100,
+                "rotation": 60
+            },
+            "rotation": 300
+        }
+    ]
+}

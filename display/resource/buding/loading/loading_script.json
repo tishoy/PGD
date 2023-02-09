@@ -1,0 +1,199 @@
+{
+    "init": [
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite",
+            "props": {
+                "y": 0,
+                "x": 0,
+                "width": 720,
+                "texture": "loading_bd/loading_bg.png",
+                "height": 1280
+            },
+            "nodeParent": 2,
+            "label": "Sprite",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 3,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Animation",
+            "searchKey": "Animation,boy_walk,boy_anim",
+            "props": {
+                "y": 830,
+                "x": -200,
+                "var": "boy_anim",
+                "texture": "boy_png",
+                "autoAnimation": "walk",
+                "runtime": "boy_json",
+                "name": "boy",
+                "autoPlay": true,
+                "loop": true
+            },
+            "nodeParent": 2,
+            "label": "boy",
+            "isOpen": true,
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 4,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Animation",
+            "searchKey": "Animation,girl,girl_anim",
+            "props": {
+                "y": 800,
+                "x": -200,
+                "var": "girl_anim",
+                "texture": "girl_png",
+                "autoAnimation": "walk",
+                "runtime": "girl_json",
+                "name": "girl",
+                "autoPlay": true,
+                "loop": true
+            },
+            "nodeParent": 2,
+            "label": "girl",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 5,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,logo",
+            "props": {
+                "y": 165,
+                "x": 120,
+                "var": "logo",
+                "texture": "loading_bd/logo.png"
+            },
+            "nodeParent": 2,
+            "label": "logo",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 6,
+            "child": []
+        }
+    ],
+    "keys": [],
+    "events": [
+        {
+            "id": 0,
+            "bind": "mActor",
+            "type": "orign",
+            "on": [
+                0,
+                1,
+                2
+            ],
+            "once": false,
+            "lock": [],
+            "item": null
+        },
+        {
+            "id": 0,
+            "bind": "mActor",
+            "type": "end",
+            "on": [
+                3,
+                4,
+                6
+            ],
+            "once": false,
+            "lock": [],
+            "item": null
+        }
+    ],
+    "items": [],
+    "actions": [
+        {
+            "id": 0,
+            "actor": "boy_anim",
+            "todo": {
+                "props": {
+                    "x": 200,
+                    "visible": true
+                },
+                "type": "tween",
+                "time": 350
+            }
+        },
+        {
+            "id": 1,
+            "actor": "boy_anim",
+            "todo": {
+                "props": {
+                    "x": 600,
+                    "visible": true
+                },
+                "type": "tween",
+                "time": 500
+            }
+        },
+        {
+            "id": 2,
+            "actor": "girl_anim",
+            "todo": {
+                "props": {
+                    "x": 200,
+                    "visible": true
+                },
+                "type": "tween",
+                "time": 250
+            }
+        },
+        {
+            "id": 3,
+            "actor": "boy_anim",
+            "todo": {
+                "props": {
+                    "x": 920,
+                    "visible": true
+                },
+                "type": "tween",
+                "time": 300
+            }
+        },
+        {
+            "id": 4,
+            "actor": "girl_anim",
+            "todo": {
+                "props": {
+                    "x": 920,
+                    "visible": true
+                },
+                "type": "tween",
+                "time": 1000
+            }
+        },
+        {
+            "id": 5,
+            "actor": "mActor",
+            "todo": {
+                "props": {},
+                "type": "wait",
+                "time": "1000"
+            }
+        },
+        {
+            "id": 6,
+            "actor": "mActor",
+            "todo": {
+                "props": {},
+                "type": "finish"
+            }
+        }
+    ],
+    "hints": [],
+    "animates": []
+}

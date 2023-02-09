@@ -1,0 +1,1033 @@
+{
+    "init": [
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite",
+            "props": {
+                "y": 0,
+                "x": 0,
+                "texture": "b05_garden2.png"
+            },
+            "nodeParent": 2,
+            "label": "Sprite",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 3,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,suido",
+            "props": {
+                "y": 381,
+                "x": 360,
+                "var": "suido",
+                "texture": "m27_suido.png"
+            },
+            "nodeParent": 2,
+            "label": "suido",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 4,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,yana3",
+            "props": {
+                "y": 502,
+                "x": 12.5,
+                "width": 147,
+                "var": "yana3",
+                "texture": "c23_yanA3.png",
+                "height": 205
+            },
+            "nodeParent": 2,
+            "label": "yana3",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 5,
+            "child": [],
+            "$HIDDEN": false
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,yana4",
+            "props": {
+                "y": 502,
+                "x": 0,
+                "visible": false,
+                "var": "yana4",
+                "texture": "c24_yanA4.png"
+            },
+            "nodeParent": 2,
+            "label": "yana4",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 11,
+            "child": [],
+            "$HIDDEN": false
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,hose1",
+            "props": {
+                "y": 443,
+                "x": 375,
+                "var": "hose1",
+                "texture": "m28_hose1.png"
+            },
+            "nodeParent": 2,
+            "label": "hose1",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 6,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,hose2",
+            "props": {
+                "y": 443,
+                "x": 375,
+                "visible": false,
+                "var": "hose2",
+                "texture": "m29_hose2.png"
+            },
+            "nodeParent": 2,
+            "label": "hose2",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 12,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,bench",
+            "props": {
+                "y": 480,
+                "x": 902,
+                "var": "bench",
+                "texture": "m02_bench.png"
+            },
+            "nodeParent": 2,
+            "label": "bench",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 8,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,mActor",
+            "props": {
+                "y": 712,
+                "x": 212,
+                "var": "mActor",
+                "texture": "c67_buka0.png"
+            },
+            "nodeParent": 2,
+            "label": "mActor",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 9,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,boss2",
+            "props": {
+                "y": 509,
+                "x": 900,
+                "visible": false,
+                "var": "boss2",
+                "texture": "c06_boss2.png"
+            },
+            "nodeParent": 2,
+            "label": "boss2",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 14,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,buka2",
+            "props": {
+                "y": 436,
+                "x": 684,
+                "visible": false,
+                "var": "buka2",
+                "texture": "c02_buka2.png"
+            },
+            "nodeParent": 2,
+            "label": "buka2",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 19,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,buka6",
+            "props": {
+                "y": 305,
+                "x": 485,
+                "visible": false,
+                "var": "buka6",
+                "texture": "c19_buka6.png"
+            },
+            "nodeParent": 2,
+            "label": "buka6",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 15,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,buka4",
+            "props": {
+                "y": 398,
+                "x": 943,
+                "visible": false,
+                "var": "buka4",
+                "texture": "c04_buka4.png"
+            },
+            "nodeParent": 2,
+            "label": "buka4",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 17,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,buka7",
+            "props": {
+                "y": 439,
+                "x": 654,
+                "visible": false,
+                "var": "buka7",
+                "texture": "c20_buka7.png",
+                "scaleY": 1,
+                "scaleX": -1
+            },
+            "nodeParent": 2,
+            "label": "buka7",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 18,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,yanb1",
+            "props": {
+                "y": 517,
+                "x": 184,
+                "var": "yanb1",
+                "texture": "c25_yanB1.png"
+            },
+            "nodeParent": 2,
+            "label": "yanb1",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 20,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,yanb2",
+            "props": {
+                "y": 509,
+                "x": 184,
+                "visible": false,
+                "var": "yanb2",
+                "texture": "c26_yanB2.png"
+            },
+            "nodeParent": 2,
+            "label": "yanb2",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 21,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,boss1",
+            "props": {
+                "y": 480,
+                "x": 531,
+                "visible": false,
+                "var": "boss1",
+                "texture": "c05_boss1.png"
+            },
+            "nodeParent": 2,
+            "label": "boss1",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 7,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,water1",
+            "props": {
+                "y": 425,
+                "x": 12.5,
+                "visible": false,
+                "var": "water1",
+                "texture": "m30_water1.png"
+            },
+            "nodeParent": 2,
+            "label": "water1",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 10,
+            "child": [],
+            "$HIDDEN": false
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,boss4",
+            "props": {
+                "y": 487,
+                "x": 778,
+                "visible": false,
+                "var": "boss4",
+                "texture": "c27_boss4.png",
+                "alpha": 1
+            },
+            "nodeParent": 2,
+            "label": "boss4",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 16,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,water2",
+            "props": {
+                "y": 433,
+                "x": 436,
+                "visible": false,
+                "var": "water2",
+                "texture": "m31_water2.png",
+                "alpha": 1
+            },
+            "nodeParent": 2,
+            "label": "water2",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 13,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,suidoarea",
+            "props": {
+                "y": 376,
+                "x": 360,
+                "width": 354,
+                "var": "suidoarea",
+                "texture": "helper.png",
+                "height": 193,
+                "alpha": 0
+            },
+            "nodeParent": 2,
+            "label": "suidoarea",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 24,
+            "child": []
+        }
+    ],
+    "keys": [
+        {
+            "id": 0,
+            "isOn": false
+        },
+        {
+            "id": 1,
+            "isOn": false
+        },
+        {
+            "id": 2,
+            "isOn": false
+        }
+    ],
+    "events": [
+        {
+            "id": 0,
+            "bind": "hose1",
+            "type": "touch",
+            "on": [
+                12,
+                30,
+                13,
+                39
+            ],
+            "once": false,
+            "lock": [
+                {
+                    "id": 2,
+                    "isOn": false
+                }
+            ],
+            "item": null
+        },
+        {
+            "id": 1,
+            "bind": "hose2",
+            "type": "touch",
+            "on": [
+                14,
+                30,
+                11,
+                40
+            ],
+            "once": false,
+            "lock": [
+                {
+                    "id": 2,
+                    "isOn": false
+                }
+            ],
+            "item": null
+        },
+        {
+            "id": 2,
+            "bind": "suidoarea",
+            "type": "touch",
+            "on": [
+                1,
+                29,
+                15,
+                3,
+                0,
+                4,
+                2,
+                41,
+                37
+            ],
+            "once": false,
+            "lock": [
+                {
+                    "id": 1,
+                    "isOn": true
+                },
+                {
+                    "id": 2,
+                    "isOn": false
+                }
+            ],
+            "item": null
+        },
+        {
+            "id": 3,
+            "bind": "suidoarea",
+            "type": "touch",
+            "on": [
+                1,
+                3,
+                0,
+                16,
+                4,
+                2,
+                42,
+                38
+            ],
+            "once": false,
+            "lock": [
+                {
+                    "id": 2,
+                    "isOn": true
+                }
+            ],
+            "item": null
+        },
+        {
+            "id": 4,
+            "bind": "suidoarea",
+            "type": "touch",
+            "on": [
+                1,
+                29,
+                5,
+                3,
+                0,
+                4,
+                6,
+                31,
+                36,
+                7,
+                8,
+                9,
+                10,
+                0,
+                43
+            ],
+            "once": false,
+            "lock": [
+                {
+                    "id": 1,
+                    "isOn": false
+                },
+                {
+                    "id": 2,
+                    "isOn": false
+                }
+            ],
+            "item": null
+        },
+        {
+            "id": 5,
+            "bind": "bench",
+            "type": "touch",
+            "on": [
+                1,
+                30,
+                17,
+                0,
+                19,
+                21,
+                20,
+                22,
+                32,
+                27
+            ],
+            "once": true,
+            "lock": [
+                {
+                    "id": 0,
+                    "isOn": false
+                }
+            ],
+            "item": null
+        },
+        {
+            "id": 6,
+            "bind": "bench",
+            "type": "touch",
+            "on": [
+                1,
+                30,
+                17,
+                19,
+                23,
+                20,
+                24,
+                35,
+                18,
+                25,
+                33,
+                0,
+                26,
+                34,
+                28
+            ],
+            "once": true,
+            "lock": [
+                {
+                    "id": 0,
+                    "isOn": true
+                }
+            ],
+            "item": null
+        }
+    ],
+    "items": [],
+    "actions": [
+        {
+            "id": 0,
+            "actor": "mActor",
+            "todo": {
+                "props": {},
+                "type": "wait",
+                "time": "1000"
+            }
+        },
+        {
+            "id": 1,
+            "actor": "mActor",
+            "todo": {
+                "props": {
+                    "visible": false
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 2,
+            "actor": "mActor",
+            "todo": {
+                "props": {
+                    "visible": true
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 3,
+            "actor": "buka6",
+            "todo": {
+                "props": {
+                    "visible": true
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 4,
+            "actor": "buka6",
+            "todo": {
+                "props": {
+                    "visible": false
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 5,
+            "actor": "water1",
+            "todo": {
+                "props": {
+                    "visible": true
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 6,
+            "actor": "water1",
+            "todo": {
+                "props": {
+                    "visible": false
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 7,
+            "actor": "yana3",
+            "todo": {
+                "props": {
+                    "visible": false
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 8,
+            "actor": "yana4",
+            "todo": {
+                "props": {
+                    "visible": true
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 9,
+            "actor": "yanb1",
+            "todo": {
+                "props": {
+                    "visible": false
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 10,
+            "actor": "yanb2",
+            "todo": {
+                "props": {
+                    "visible": true
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 11,
+            "actor": "hose1",
+            "todo": {
+                "props": {
+                    "visible": true
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 12,
+            "actor": "hose1",
+            "todo": {
+                "props": {
+                    "visible": false
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 13,
+            "actor": "hose2",
+            "todo": {
+                "props": {
+                    "visible": true
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 14,
+            "actor": "hose2",
+            "todo": {
+                "props": {
+                    "visible": false
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 15,
+            "actor": "water2",
+            "todo": {
+                "props": {
+                    "visible": true
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 16,
+            "actor": "water2",
+            "todo": {
+                "props": {
+                    "visible": false
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 17,
+            "actor": "buka4",
+            "todo": {
+                "props": {
+                    "visible": true
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 18,
+            "actor": "buka4",
+            "todo": {
+                "props": {
+                    "visible": false
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 19,
+            "actor": "boss1",
+            "todo": {
+                "props": {
+                    "visible": true
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 20,
+            "actor": "boss1",
+            "todo": {
+                "props": {
+                    "visible": false
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 21,
+            "actor": "boss1",
+            "todo": {
+                "props": {
+                    "x": 839,
+                    "visible": true
+                },
+                "type": "tween",
+                "time": 500
+            }
+        },
+        {
+            "id": 22,
+            "actor": "boss2",
+            "todo": {
+                "props": {
+                    "visible": true
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 23,
+            "actor": "boss1",
+            "todo": {
+                "props": {
+                    "x": 700,
+                    "visible": true
+                },
+                "type": "tween",
+                "time": 300
+            }
+        },
+        {
+            "id": 24,
+            "actor": "boss4",
+            "todo": {
+                "props": {
+                    "visible": true
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 25,
+            "actor": "buka2",
+            "todo": {
+                "props": {
+                    "visible": true
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 26,
+            "actor": "buka2",
+            "todo": {
+                "props": {
+                    "x": 500,
+                    "visible": true
+                },
+                "type": "tween",
+                "time": 1000
+            }
+        },
+        {
+            "id": 27,
+            "actor": "mActor",
+            "todo": {
+                "props": {},
+                "type": "over",
+                "res": "go01_png"
+            }
+        },
+        {
+            "id": 28,
+            "actor": "mActor",
+            "todo": {
+                "props": {},
+                "type": "clear",
+                "res": "cl02_png"
+            }
+        },
+        {
+            "id": 29,
+            "actor": "mActor",
+            "todo": {
+                "props": {},
+                "type": "sound",
+                "res": "waterSupply_mp3"
+            }
+        },
+        {
+            "id": 30,
+            "actor": "mActor",
+            "todo": {
+                "props": {},
+                "type": "sound",
+                "res": "set_mp3"
+            }
+        },
+        {
+            "id": 31,
+            "actor": "mActor",
+            "todo": {
+                "props": {},
+                "type": "sound",
+                "res": "ex_mp3"
+            }
+        },
+        {
+            "id": 32,
+            "actor": "mActor",
+            "todo": {
+                "props": {},
+                "type": "sound",
+                "res": "question_mp3"
+            }
+        },
+        {
+            "id": 33,
+            "actor": "mActor",
+            "todo": {
+                "props": {},
+                "type": "sound",
+                "res": "buka_mp3"
+            }
+        },
+        {
+            "id": 34,
+            "actor": "mActor",
+            "todo": {
+                "props": {},
+                "type": "sound",
+                "res": "bukaAway_mp3"
+            }
+        },
+        {
+            "id": 35,
+            "actor": "mActor",
+            "todo": {
+                "props": {},
+                "type": "sound",
+                "res": "water_mp3"
+            }
+        },
+        {
+            "id": 36,
+            "actor": "buka7",
+            "todo": {
+                "props": {
+                    "visible": true
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 37,
+            "actor": "mActor",
+            "todo": {
+                "props": {},
+                "type": "key",
+                "key": {
+                    "id": 0,
+                    "isOn": true
+                }
+            }
+        },
+        {
+            "id": 38,
+            "actor": "mActor",
+            "todo": {
+                "props": {},
+                "type": "key",
+                "key": {
+                    "id": 0,
+                    "isOn": false
+                }
+            }
+        },
+        {
+            "id": 39,
+            "actor": "mActor",
+            "todo": {
+                "props": {},
+                "type": "key",
+                "key": {
+                    "id": 1,
+                    "isOn": true
+                }
+            }
+        },
+        {
+            "id": 40,
+            "actor": "mActor",
+            "todo": {
+                "props": {},
+                "type": "key",
+                "key": {
+                    "id": 1,
+                    "isOn": false
+                }
+            }
+        },
+        {
+            "id": 41,
+            "actor": "mActor",
+            "todo": {
+                "props": {},
+                "type": "key",
+                "key": {
+                    "id": 2,
+                    "isOn": true
+                }
+            }
+        },
+        {
+            "id": 42,
+            "actor": "mActor",
+            "todo": {
+                "props": {},
+                "type": "key",
+                "key": {
+                    "id": 2,
+                    "isOn": false
+                }
+            }
+        },
+        {
+            "id": 43,
+            "actor": "mActor",
+            "todo": {
+                "props": {},
+                "type": "over",
+                "res": "go04_png"
+            }
+        }
+    ],
+    "animates": [],
+    "hints": "点击水管可以转向，巧妙利用吧！;让水管朝向右侧放水，点击长凳！"
+}

@@ -1,0 +1,910 @@
+{
+    "init": [
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite",
+            "props": {
+                "y": 0,
+                "x": 0,
+                "width": 720,
+                "texture": "cg/cg_scene.png",
+                "height": 1280
+            },
+            "nodeParent": 2,
+            "label": "Sprite",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 3,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,box",
+            "props": {
+                "y": 425,
+                "x": 262.5,
+                "var": "box",
+                "texture": "cg/icebox.png"
+            },
+            "nodeParent": 2,
+            "label": "box",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 4,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,udoor1",
+            "props": {
+                "y": 445,
+                "x": 268,
+                "var": "udoor1",
+                "texture": "cg/top_door1.png"
+            },
+            "nodeParent": 2,
+            "label": "udoor1",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 5,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,udoor2",
+            "props": {
+                "y": 444,
+                "x": 407.5,
+                "visible": false,
+                "var": "udoor2",
+                "texture": "cg/cg_door2.png"
+            },
+            "nodeParent": 2,
+            "label": "udoor2",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 6,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,ddoor2",
+            "props": {
+                "y": 527,
+                "x": 406.5,
+                "visible": false,
+                "var": "ddoor2",
+                "texture": "cg/ddoor2.png"
+            },
+            "nodeParent": 2,
+            "label": "ddoor2",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 10,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,ddoor1",
+            "props": {
+                "y": 530,
+                "x": 268,
+                "var": "ddoor1",
+                "texture": "cg/cg_door1.png"
+            },
+            "nodeParent": 2,
+            "label": "ddoor1",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 20,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,buding",
+            "props": {
+                "y": 543,
+                "x": 313,
+                "var": "buding",
+                "visible": false,
+                "texture": "cg/cg_buding.png"
+            },
+            "nodeParent": 2,
+            "label": "buding",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 11,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,girl1",
+            "props": {
+                "y": 478,
+                "x": 283.5,
+                "var": "girl1",
+                "visible": false,
+                "texture": "cg/cg_find1.png"
+            },
+            "nodeParent": 2,
+            "label": "girl1",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 21,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,girl2",
+            "props": {
+                "y": 486.5,
+                "x": 293,
+                "var": "girl2",
+                "visible": false,
+                "texture": "cg/cg_find2.png"
+            },
+            "nodeParent": 2,
+            "label": "girl2",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 22,
+            "child": [],
+            "$HIDDEN": true
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,girl4",
+            "props": {
+                "y": 507.5,
+                "x": 350,
+                "var": "girl4",
+                "visible": false,
+                "texture": "cg/cg_fing4.png"
+            },
+            "nodeParent": 2,
+            "label": "girl4",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 23,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,girl3",
+            "props": {
+                "y": 596.5,
+                "x": 281.5,
+                "var": "girl3",
+                "visible": false,
+                "texture": "cg/cg_find3.png"
+            },
+            "nodeParent": 2,
+            "label": "girl3",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 24,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Animation",
+            "searchKey": "Animation,boy_eat",
+            "props": {
+                "y": 700,
+                "x": 360,
+                "var": "eat",
+                "texture": "eat_png",
+                "autoAnimation": "",
+                "runtime": "eat_json",
+                "name": "eat",
+                "visible": false,
+                "autoPlay": false,
+                "loop": true
+            },
+            "nodeParent": 2,
+            "label": "eat",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 26,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,desk",
+            "props": {
+                "y": 880,
+                "x": 0,
+                "width": 720,
+                "var": "desk",
+                "visible": false,
+                "texture": "cg/cg_desk.png",
+                "height": 400
+            },
+            "nodeParent": 2,
+            "label": "desk",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 25,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,surprise",
+            "props": {
+                "y": 486.5,
+                "x": 228,
+                "var": "surprise",
+                "visible": false,
+                "texture": "cg/cg_over.png"
+            },
+            "nodeParent": 2,
+            "label": "surprise",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 27,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,walk1",
+            "props": {
+                "y": 559.5,
+                "x": 324.5,
+                "visible": false,
+                "var": "walk1",
+                "texture": "cg/cg_walk.png"
+            },
+            "nodeParent": 2,
+            "label": "walk1",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 28,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,walk0",
+            "props": {
+                "y": 656,
+                "x": 567,
+                "visible": false,
+                "var": "walk0",
+                "texture": "cg/cg_walk.png",
+                "scaleY": 1.2,
+                "scaleX": -1.2
+            },
+            "nodeParent": 2,
+            "label": "walk0",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 29,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,word1",
+            "props": {
+                "y": 299,
+                "x": 133,
+                "visible": false,
+                "var": "word1",
+                "texture": "cg/where.png"
+            },
+            "nodeParent": 2,
+            "label": "word1",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 30,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,word2",
+            "props": {
+                "y": 284,
+                "x": 113,
+                "visible": false,
+                "var": "word2",
+                "texture": "cg/where1.png"
+            },
+            "nodeParent": 2,
+            "label": "word2",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 31,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,word3",
+            "props": {
+                "y": 271,
+                "x": 135,
+                "visible": false,
+                "var": "word3",
+                "texture": "cg/lost.png"
+            },
+            "nodeParent": 2,
+            "label": "word3",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 32,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,logo",
+            "props": {
+                "y": 271,
+                "x": 135,
+                "visible": false,
+                "var": "logo",
+                "texture": "cg/logo.png"
+            },
+            "nodeParent": 2,
+            "label": "logo",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 32,
+            "child": []
+        }
+    ],
+    "keys": [],
+    "events": [
+        {
+            "id": 0,
+            "bind": "udoor1",
+            "type": "touch",
+            "on": [
+                0,
+                1
+            ],
+            "once": false,
+            "lock": [],
+            "item": null
+        },
+        {
+            "id": 1,
+            "bind": "ddoor1",
+            "type": "touch",
+            "on": [
+                2,
+                3,
+                4
+            ],
+            "once": false,
+            "lock": [],
+            "item": null
+        },
+        {
+            "id": 2,
+            "bind": "buding",
+            "type": "touch",
+            "on": [
+                0,
+                2,
+                5,
+                6,
+                7,
+                8,
+                9,
+                16,
+                10,
+                11,
+                12,
+                13,
+                14,
+                17,
+                18,
+                19,
+                26,
+                20,
+                21,
+                22,
+                23,
+                21,
+                24,
+                25,
+                0,
+                1,
+                2,
+                3,
+                27,
+                21,
+                28,
+                29,
+                30,
+                31,
+                21,
+                32,
+                33,
+                34,
+                35,
+                21,
+                36,
+                37,
+                38,
+                39,
+                21,
+                40,
+                41,
+                42
+            ],
+            "once": false,
+            "lock": [],
+            "item": null
+        }
+    ],
+    "items": [],
+    "actions": [
+        {
+            "id": 0,
+            "actor": "udoor1",
+            "todo": {
+                "props": {
+                    "visible": false
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 1,
+            "actor": "udoor2",
+            "todo": {
+                "props": {
+                    "visible": true
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 2,
+            "actor": "ddoor1",
+            "todo": {
+                "props": {
+                    "visible": false
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 3,
+            "actor": "ddoor2",
+            "todo": {
+                "props": {
+                    "visible": true
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 4,
+            "actor": "buding",
+            "todo": {
+                "props": {
+                    "visible": true
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 5,
+            "actor": "buding",
+            "todo": {
+                "props": {
+                    "visible": false
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 6,
+            "actor": "desk",
+            "todo": {
+                "props": {
+                    "visible": true
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 7,
+            "actor": "box",
+            "todo": {
+                "props": {
+                    "visible": false
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 8,
+            "actor": "udoor2",
+            "todo": {
+                "props": {
+                    "visible": false
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 9,
+            "actor": "ddoor2",
+            "todo": {
+                "props": {
+                    "visible": false
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 10,
+            "actor": "eat",
+            "todo": {
+                "props": {},
+                "type": "a_play",
+                "animate": {
+                    "loop": true
+                }
+            }
+        },
+        {
+            "id": 11,
+            "actor": "mActor",
+            "todo": {
+                "props": {},
+                "type": "wait",
+                "time": "5000"
+            }
+        },
+        {
+            "id": 12,
+            "actor": "eat",
+            "todo": {
+                "props": {},
+                "type": "a_stop",
+                "animate": {}
+            }
+        },
+        {
+            "id": 13,
+            "actor": "eat",
+            "todo": {
+                "props": {
+                    "visible": false
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 14,
+            "actor": "desk",
+            "todo": {
+                "props": {
+                    "visible": false
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 15,
+            "actor": "eat",
+            "todo": {
+                "props": {
+                    "visible": false
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 16,
+            "actor": "eat",
+            "todo": {
+                "props": {
+                    "visible": true
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 17,
+            "actor": "box",
+            "todo": {
+                "props": {
+                    "visible": true
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 18,
+            "actor": "udoor1",
+            "todo": {
+                "props": {
+                    "visible": false
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 19,
+            "actor": "ddoor1",
+            "todo": {
+                "props": {
+                    "visible": true
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 20,
+            "actor": "walk0",
+            "todo": {
+                "props": {
+                    "visible": true
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 21,
+            "actor": "mActor",
+            "todo": {
+                "props": {},
+                "type": "wait",
+                "time": "500"
+            }
+        },
+        {
+            "id": 22,
+            "actor": "walk0",
+            "todo": {
+                "props": {
+                    "visible": false
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 23,
+            "actor": "walk1",
+            "todo": {
+                "props": {
+                    "visible": true
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 24,
+            "actor": "walk1",
+            "todo": {
+                "props": {
+                    "visible": false
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 25,
+            "actor": "girl1",
+            "todo": {
+                "props": {
+                    "visible": true
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 26,
+            "actor": "udoor1",
+            "todo": {
+                "props": {
+                    "visible": true
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 27,
+            "actor": "word1",
+            "todo": {
+                "props": {
+                    "visible": true
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 28,
+            "actor": "girl1",
+            "todo": {
+                "props": {
+                    "visible": false
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 29,
+            "actor": "girl2",
+            "todo": {
+                "props": {
+                    "visible": true
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 30,
+            "actor": "word1",
+            "todo": {
+                "props": {
+                    "visible": false
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 31,
+            "actor": "word2",
+            "todo": {
+                "props": {
+                    "visible": true
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 32,
+            "actor": "girl2",
+            "todo": {
+                "props": {
+                    "visible": false
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 33,
+            "actor": "girl3",
+            "todo": {
+                "props": {
+                    "visible": true
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 34,
+            "actor": "word2",
+            "todo": {
+                "props": {
+                    "visible": false
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 35,
+            "actor": "word3",
+            "todo": {
+                "props": {
+                    "visible": true
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 36,
+            "actor": "girl3",
+            "todo": {
+                "props": {
+                    "visible": false
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 37,
+            "actor": "girl4",
+            "todo": {
+                "props": {
+                    "visible": true
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 38,
+            "actor": "word3",
+            "todo": {
+                "props": {
+                    "visible": false
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 39,
+            "actor": "logo",
+            "todo": {
+                "props": {
+                    "visible": true,
+                    "x": 80,
+                    "y": 100
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 40,
+            "actor": "girl4",
+            "todo": {
+                "props": {
+                    "visible": false
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 41,
+            "actor": "surprise",
+            "todo": {
+                "props": {
+                    "visible": true
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 42,
+            "actor": "mActor",
+            "todo": {
+                "props": {},
+                "type": "finish"
+            }
+        }
+    ],
+    "animates": [],
+    "hints": ""
+}

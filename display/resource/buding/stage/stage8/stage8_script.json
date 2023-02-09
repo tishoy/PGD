@@ -1,0 +1,825 @@
+{
+    "init": [
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite",
+            "props": {
+                "y": 0,
+                "x": 0,
+                "texture": "b03_room2.png"
+            },
+            "nodeParent": 2,
+            "label": "Sprite",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 3,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,door1",
+            "props": {
+                "y": 179,
+                "x": -259,
+                "var": "door1",
+                "texture": "m20_door1.png"
+            },
+            "nodeParent": 2,
+            "label": "door1",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 4,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,buka10",
+            "props": {
+                "y": 473,
+                "x": 343,
+                "visible": false,
+                "var": "buka10",
+                "texture": "c28_buka10.png"
+            },
+            "nodeParent": 2,
+            "label": "buka10",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 15,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,mActor",
+            "props": {
+                "y": 591,
+                "x": 42,
+                "var": "mActor",
+                "texture": "c67_buka0.png"
+            },
+            "nodeParent": 2,
+            "label": "mActor",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 5,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,table",
+            "props": {
+                "y": 407,
+                "x": 215,
+                "var": "table",
+                "texture": "m32_table.png"
+            },
+            "nodeParent": 2,
+            "label": "table",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 6,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,model1",
+            "props": {
+                "y": 247,
+                "x": 970,
+                "var": "model1",
+                "texture": "m34_model1.png"
+            },
+            "nodeParent": 2,
+            "label": "model1",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 7,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,model2",
+            "props": {
+                "y": 226,
+                "x": 1100,
+                "var": "model2",
+                "texture": "m90_model2.png"
+            },
+            "nodeParent": 2,
+            "label": "model2",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 8,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,consent",
+            "props": {
+                "y": 476,
+                "x": 1237,
+                "var": "consent",
+                "texture": "m35_consent.png"
+            },
+            "nodeParent": 2,
+            "label": "consent",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 9,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,cable1",
+            "props": {
+                "y": 499,
+                "x": 1244,
+                "var": "cable1",
+                "texture": "m36_cable1.png"
+            },
+            "nodeParent": 2,
+            "label": "cable1",
+            "isOpen": false,
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 10,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,cable2",
+            "props": {
+                "y": 493,
+                "x": 1159,
+                "visible": false,
+                "var": "cable2",
+                "texture": "m37_cable2.png"
+            },
+            "nodeParent": 2,
+            "label": "cable2",
+            "isOpen": false,
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 11,
+            "child": [],
+            "$HIDDEN": false
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,buka11",
+            "props": {
+                "y": 257,
+                "x": 1077,
+                "visible": false,
+                "var": "buka11",
+                "texture": "c29_buka11.png"
+            },
+            "nodeParent": 2,
+            "label": "buka11",
+            "isOpen": true,
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 12,
+            "child": [],
+            "$HIDDEN": false
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,buka3",
+            "props": {
+                "y": 263,
+                "x": 1104,
+                "visible": false,
+                "var": "buka3",
+                "texture": "c03_buka3.png"
+            },
+            "nodeParent": 2,
+            "label": "buka3",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 13,
+            "child": [],
+            "$HIDDEN": false
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,boss2",
+            "props": {
+                "y": 672,
+                "x": 303,
+                "visible": false,
+                "var": "boss2",
+                "texture": "c06_boss2.png"
+            },
+            "nodeParent": 2,
+            "label": "boss2",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 16,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,table3",
+            "props": {
+                "y": 569,
+                "x": 1235,
+                "var": "table3",
+                "texture": "m97_table3.png"
+            },
+            "nodeParent": 2,
+            "label": "table3",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 17,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,boss1",
+            "props": {
+                "y": 658,
+                "x": -231,
+                "var": "boss1",
+                "texture": "c05_boss1.png"
+            },
+            "nodeParent": 2,
+            "label": "boss1",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 14,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,helper",
+            "props": {
+                "y": 157,
+                "x": 1083,
+                "width": 152,
+                "var": "helper",
+                "visible": false,
+                "texture": "helper.png",
+                "height": 378,
+                "alpha": 0
+            },
+            "nodeParent": 2,
+            "label": "helper",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 18,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,helper1",
+            "props": {
+                "y": 496,
+                "x": 250,
+                "width": 249,
+                "var": "helper1",
+                "alpha": 0,
+                "texture": "helper.png",
+                "height": 101
+            },
+            "nodeParent": 2,
+            "label": "helper1",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 20,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,buka2",
+            "props": {
+                "y": 421,
+                "x": 884,
+                "visible": false,
+                "var": "buka2",
+                "texture": "c02_buka2.png"
+            },
+            "nodeParent": 2,
+            "label": "buka2",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 22,
+            "child": []
+        }
+    ],
+    "keys": [
+        {
+            "id": 0,
+            "isOn": true
+        }
+    ],
+    "events": [
+        {
+            "id": 0,
+            "bind": "helper1",
+            "type": "touch",
+            "on": [
+                1,
+                19,
+                2,
+                11,
+                12,
+                13,
+                14,
+                23
+            ],
+            "once": true,
+            "lock": [],
+            "item": null
+        },
+        {
+            "id": 1,
+            "bind": "cable1",
+            "type": "touch",
+            "on": [
+                8,
+                19,
+                9,
+                25
+            ],
+            "once": false,
+            "lock": [
+                {
+                    "id": 0,
+                    "isOn": true
+                }
+            ],
+            "item": null
+        },
+        {
+            "id": 2,
+            "bind": "cable2",
+            "type": "touch",
+            "on": [
+                10,
+                19,
+                7,
+                31
+            ],
+            "once": false,
+            "lock": [
+                {
+                    "id": 0,
+                    "isOn": false
+                }
+            ],
+            "item": null
+        },
+        {
+            "id": 3,
+            "bind": "model2",
+            "type": "touch",
+            "on": [
+                3,
+                4,
+                30
+            ],
+            "once": true,
+            "lock": [],
+            "item": null
+        },
+        {
+            "id": 4,
+            "bind": "helper",
+            "type": "touch",
+            "on": [
+                1,
+                19,
+                26,
+                28,
+                12,
+                27,
+                14,
+                23
+            ],
+            "once": true,
+            "lock": [
+                {
+                    "id": 0,
+                    "isOn": true
+                }
+            ],
+            "item": null
+        },
+        {
+            "id": 5,
+            "bind": "helper",
+            "type": "touch",
+            "on": [
+                1,
+                19,
+                26,
+                33,
+                32,
+                20,
+                5,
+                29,
+                33,
+                6,
+                17,
+                15,
+                18,
+                16,
+                24
+            ],
+            "once": true,
+            "lock": [
+                {
+                    "id": 0,
+                    "isOn": false
+                }
+            ],
+            "item": null
+        }
+    ],
+    "items": [
+        {
+            "id": 0,
+            "name": "",
+            "res": "m90_model2_pop_png"
+        }
+    ],
+    "actions": [
+        {
+            "id": 0,
+            "actor": "mActor",
+            "todo": {
+                "props": {},
+                "type": "wait",
+                "time": "2000"
+            }
+        },
+        {
+            "id": 1,
+            "actor": "mActor",
+            "todo": {
+                "props": {
+                    "visible": false
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 2,
+            "actor": "buka10",
+            "todo": {
+                "props": {
+                    "visible": true
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 3,
+            "actor": "model2",
+            "todo": {
+                "props": {
+                    "visible": false
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 4,
+            "actor": "mActor",
+            "todo": {
+                "props": {},
+                "type": "item",
+                "item": "0"
+            }
+        },
+        {
+            "id": 5,
+            "actor": "buka11",
+            "todo": {
+                "props": {
+                    "visible": true
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 6,
+            "actor": "buka11",
+            "todo": {
+                "props": {
+                    "visible": false
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 7,
+            "actor": "cable1",
+            "todo": {
+                "props": {
+                    "visible": true
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 8,
+            "actor": "cable1",
+            "todo": {
+                "props": {
+                    "visible": false
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 9,
+            "actor": "cable2",
+            "todo": {
+                "props": {
+                    "visible": true
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 10,
+            "actor": "cable2",
+            "todo": {
+                "props": {
+                    "visible": false
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 11,
+            "actor": "boss1",
+            "todo": {
+                "props": {
+                    "x": 282,
+                    "visible": true
+                },
+                "type": "tween",
+                "time": 1000
+            }
+        },
+        {
+            "id": 12,
+            "actor": "boss1",
+            "todo": {
+                "props": {
+                    "visible": false
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 13,
+            "actor": "boss2",
+            "todo": {
+                "props": {
+                    "x": 303,
+                    "visible": true
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 14,
+            "actor": "mActor",
+            "todo": {
+                "props": {},
+                "type": "sound",
+                "res": "question_mp3"
+            }
+        },
+        {
+            "id": 15,
+            "actor": "buka2",
+            "todo": {
+                "props": {
+                    "visible": true
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 16,
+            "actor": "buka2",
+            "todo": {
+                "props": {
+                    "x": 500,
+                    "visible": true
+                },
+                "type": "tween",
+                "time": 1000
+            }
+        },
+        {
+            "id": 17,
+            "actor": "mActor",
+            "todo": {
+                "props": {},
+                "type": "sound",
+                "res": "buka_mp3"
+            }
+        },
+        {
+            "id": 18,
+            "actor": "mActor",
+            "todo": {
+                "props": {},
+                "type": "sound",
+                "res": "bukaAway_mp3"
+            }
+        },
+        {
+            "id": 19,
+            "actor": "mActor",
+            "todo": {
+                "props": {},
+                "type": "sound",
+                "res": "set_mp3"
+            }
+        },
+        {
+            "id": 20,
+            "actor": "mActor",
+            "todo": {
+                "props": {},
+                "type": "sound",
+                "res": "plug_mp3"
+            }
+        },
+        {
+            "id": 21,
+            "actor": "mActor",
+            "todo": {
+                "props": {},
+                "type": "sound",
+                "res": "result0_mp3"
+            }
+        },
+        {
+            "id": 22,
+            "actor": "mActor",
+            "todo": {
+                "props": {},
+                "type": "sound",
+                "res": "result1_mp3"
+            }
+        },
+        {
+            "id": 23,
+            "actor": "mActor",
+            "todo": {
+                "props": {},
+                "type": "over",
+                "res": "go01_png"
+            }
+        },
+        {
+            "id": 24,
+            "actor": "mActor",
+            "todo": {
+                "props": {},
+                "type": "clear",
+                "res": "cl01_png"
+            }
+        },
+        {
+            "id": 25,
+            "actor": "mActor",
+            "todo": {
+                "props": {},
+                "type": "key",
+                "key": {
+                    "id": "0",
+                    "isOn": false
+                }
+            }
+        },
+        {
+            "id": 26,
+            "actor": "buka3",
+            "todo": {
+                "props": {
+                    "visible": true
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 27,
+            "actor": "boss2",
+            "todo": {
+                "props": {
+                    "x": 1024,
+                    "visible": true
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 28,
+            "actor": "boss1",
+            "todo": {
+                "props": {
+                    "x": 1020,
+                    "visible": true
+                },
+                "type": "tween",
+                "time": 1500
+            }
+        },
+        {
+            "id": 29,
+            "actor": "boss1",
+            "todo": {
+                "props": {
+                    "x": 1440,
+                    "visible": true
+                },
+                "type": "tween",
+                "time": 2000
+            }
+        },
+        {
+            "id": 30,
+            "actor": "helper",
+            "todo": {
+                "props": {
+                    "visible": true
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 31,
+            "todo": {
+                "type": "key",
+                "key": {
+                    "id": "0",
+                    "isOn": true
+                }
+            }
+        },
+        {
+            "id": 32,
+            "actor": "buka3",
+            "todo": {
+                "props": {
+                    "visible": false
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 33,
+            "todo": {
+                "type": "wait",
+                "time": 800
+            }
+        }
+    ],
+    "animates": [],
+    "hints": "点击电线，插头会拔下来！;插销拔掉后，点击骨骼模型在的地方！"
+}

@@ -1,0 +1,453 @@
+{
+    "init": [
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite",
+            "props": {
+                "y": 0,
+                "x": 0,
+                "texture": "b01_ground.png"
+            },
+            "nodeParent": 2,
+            "label": "Sprite",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 3,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,bench",
+            "props": {
+                "y": 623,
+                "x": 178,
+                "var": "bench",
+                "texture": "m02_bench.png"
+            },
+            "nodeParent": 2,
+            "label": "bench",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 4,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,mobsA1",
+            "props": {
+                "y": 435,
+                "x": 865,
+                "var": "mobsA1",
+                "texture": "c07_mobsA1.png"
+            },
+            "nodeParent": 2,
+            "label": "mobsA1",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 5,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,buka2",
+            "props": {
+                "y": 516,
+                "x": 738,
+                "visible": false,
+                "var": "buka2",
+                "texture": "c02_buka2.png"
+            },
+            "nodeParent": 2,
+            "label": "buka2",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 12,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,mActor",
+            "props": {
+                "y": 751,
+                "x": 216,
+                "var": "mActor",
+                "texture": "c67_buka0.png"
+            },
+            "nodeParent": 2,
+            "label": "mActor",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 6,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,ming4",
+            "props": {
+                "y": 537,
+                "x": 192,
+                "visible": false,
+                "var": "buka4",
+                "texture": "c04_buka4.png"
+            },
+            "nodeParent": 2,
+            "label": "buka4",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 7,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,ming51",
+            "props": {
+                "y": 537,
+                "x": 998,
+                "visible": false,
+                "var": "buka51",
+                "texture": "c162_buka51.png"
+            },
+            "nodeParent": 2,
+            "label": "buka51",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 8,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,boss",
+            "props": {
+                "y": 680,
+                "x": -289,
+                "var": "boss",
+                "texture": "c05_boss1.png"
+            },
+            "nodeParent": 2,
+            "label": "boss",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 9,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,boss2",
+            "props": {
+                "y": 708,
+                "x": 264,
+                "visible": false,
+                "var": "boss2",
+                "texture": "c06_boss2.png"
+            },
+            "nodeParent": 2,
+            "label": "boss2",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 10,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,bibs",
+            "props": {
+                "y": 565,
+                "x": 782,
+                "var": "bibs",
+                "texture": "m89_bibs.png"
+            },
+            "nodeParent": 2,
+            "label": "bibs",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 11,
+            "child": []
+        }
+    ],
+    "events": [
+        {
+            "id": 0,
+            "bind": "bench",
+            "type": "touch",
+            "on": [
+                15,
+                0,
+                1,
+                2,
+                3,
+                4,
+                13
+            ],
+            "lock": [],
+            "once": true
+        },
+        {
+            "id": 1,
+            "bind": "bibs",
+            "type": "touch",
+            "on": [
+                9,
+                10
+            ],
+            "lock": [],
+            "once": true
+        },
+        {
+            "id": 2,
+            "bind": "mobsA1",
+            "type": "use_item",
+            "item": 0,
+            "on": [
+                14,
+                5,
+                6,
+                7,
+                8,
+                12,
+                19,
+                17,
+                18,
+                20,
+                11
+            ],
+            "lock": [],
+            "once": true
+        }
+    ],
+    "items": [
+        {
+            "id": 0,
+            "name": "bibs",
+            "res": "m89_bibs_pop_png"
+        }
+    ],
+    "actions": [
+        {
+            "id": 0,
+            "actor": "mActor",
+            "todo": {
+                "props": {
+                    "visible": false
+                },
+                "time": 0,
+                "type": "simple"
+            }
+        },
+        {
+            "id": 1,
+            "actor": "buka4",
+            "todo": {
+                "props": {
+                    "visible": true
+                },
+                "time": 0,
+                "type": "simple"
+            }
+        },
+        {
+            "id": 2,
+            "actor": "boss",
+            "todo": {
+                "props": {
+                    "x": 289
+                },
+                "time": 1500,
+                "type": "tween"
+            }
+        },
+        {
+            "id": 3,
+            "actor": "boss2",
+            "todo": {
+                "props": {
+                    "x": 300,
+                    "visible": true
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 4,
+            "actor": "boss",
+            "todo": {
+                "props": {
+                    "visible": false
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 5,
+            "actor": "mActor",
+            "todo": {
+                "props": {
+                    "visible": false
+                },
+                "type": "simple",
+                "time": 0
+            }
+        },
+        {
+            "id": 6,
+            "actor": "buka51",
+            "todo": {
+                "props": {
+                    "visible": true
+                },
+                "type": "simple",
+                "time": 0
+            }
+        },
+        {
+            "id": 7,
+            "actor": "boss",
+            "todo": {
+                "props": {
+                    "x": 1490
+                },
+                "time": 1500,
+                "type": "tween"
+            }
+        },
+        {
+            "id": 8,
+            "actor": "buka2",
+            "todo": {
+                "props": {
+                    "visible": true
+                },
+                "type": "simple",
+                "time": 0
+            }
+        },
+        {
+            "id": 9,
+            "actor": "item",
+            "global": true,
+            "todo": {
+                "props": {},
+                "type": "item",
+                "time": 0,
+                "item": 0
+            }
+        },
+        {
+            "id": 10,
+            "actor": "bibs",
+            "todo": {
+                "props": {
+                    "visible": false
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 11,
+            "actor": "",
+            "todo": {
+                "type": "clear",
+                "res": "cl01_png"
+            }
+        },
+        {
+            "id": 12,
+            "actor": "buka51",
+            "todo": {
+                "props": {
+                    "visible": false
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 13,
+            "actor": "",
+            "todo": {
+                "type": "over",
+                "res": "go01_png"
+            }
+        },
+        {
+            "id": 14,
+            "actor": "",
+            "todo": {
+                "type": "sound",
+                "res": "soccer_mp3"
+            }
+        },
+        {
+            "id": 15,
+            "actor": "",
+            "todo": {
+                "type": "sound",
+                "res": "set_mp3"
+            }
+        },
+        {
+            "id": 16,
+            "actor": "",
+            "todo": {
+                "type": "sound",
+                "res": "question_mp3"
+            }
+        },
+        {
+            "id": 17,
+            "actor": "",
+            "todo": {
+                "type": "sound",
+                "res": "buka_mp3"
+            }
+        },
+        {
+            "id": 18,
+            "actor": "",
+            "todo": {
+                "type": "sound",
+                "res": "bukaAway_mp3"
+            }
+        },
+        {
+            "id": 19,
+            "actor": "",
+            "todo": {
+                "type": "wait",
+                "time": 1000
+            }
+        },
+        {
+            "id": 20,
+            "actor": "buka2",
+            "todo": {
+                "type": "tween",
+                "props": {
+                    "X": -30
+                },
+                "time": 1000
+            }
+        }
+    ],
+    "keys": [],
+    "animates": [],
+    "hints": "灵活运用道具！;拿到号码服装后，拖进圆阵里！"
+}

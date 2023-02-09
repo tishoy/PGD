@@ -1,0 +1,63 @@
+{
+    "settings": {
+        "show_title": true,
+        "show_name": false,
+        "show_number": false,
+        "num_text": "房间#i",
+        "num_replace": "#i",
+        "num_pos": {
+            "type": 8,
+            "x": 0,
+            "y": 360
+        },
+        "is_default": true,
+        "mask": false,
+        "default": {
+            "amount": 20,
+            "regEx": "stage#ipic_png",
+            "replace": "#i",
+            "has_clear": true,
+            "clear_pos": {
+                "x": 0,
+                "y": 0
+            },
+            "has_lock": false,
+            "lock_pos": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        "select_ui": [
+            {
+                "ui": "ui_left_btn",
+                "type": 1,
+                "x": 50,
+                "y": 400
+            },
+            {
+                "ui": "ui_right_btn",
+                "type": 3,
+                "x": 50,
+                "y": 400
+            }
+        ]
+    },
+    "stage": [
+        {
+            "name": "",
+            "res": "stage1pic_png",
+            "pos": {
+                "x": 0,
+                "y": 0
+            },
+            "clear_pos": {
+                "x": 0,
+                "y": 0
+            },
+            "lock_pos": {
+                "x": 0,
+                "y": 0
+            }
+        }
+    ]
+}

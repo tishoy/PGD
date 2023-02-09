@@ -1,0 +1,1115 @@
+{
+    "init": [
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite",
+            "props": {
+                "y": -1,
+                "x": 0,
+                "width": 1291,
+                "texture": "stage_bg.png",
+                "height": 1137
+            },
+            "nodeParent": 2,
+            "label": "Sprite",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 3,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite",
+            "props": {
+                "y": 500,
+                "x": 0,
+                "texture": "room2.png"
+            },
+            "nodeParent": 2,
+            "label": "Sprite",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 5,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,guizi",
+            "props": {
+                "y": 300.5,
+                "x": 208,
+                "var": "guizi",
+                "texture": "guizi.png"
+            },
+            "nodeParent": 2,
+            "label": "guizi",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 4,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,book1",
+            "props": {
+                "y": 325,
+                "x": 224.5,
+                "width": 79,
+                "var": "book1",
+                "texture": "books1.png",
+                "height": 61
+            },
+            "nodeParent": 2,
+            "label": "book1",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 7,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,book2",
+            "props": {
+                "y": 325,
+                "x": 303.5,
+                "width": 79,
+                "var": "book2",
+                "texture": "books1.png",
+                "height": 61
+            },
+            "nodeParent": 2,
+            "label": "book2",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 8,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,book3",
+            "props": {
+                "y": 397,
+                "x": 224.5,
+                "width": 79,
+                "var": "book3",
+                "texture": "books1.png",
+                "height": 61
+            },
+            "nodeParent": 2,
+            "label": "book3",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 9,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,book4",
+            "props": {
+                "y": 397,
+                "x": 303.5,
+                "width": 79,
+                "var": "book4",
+                "texture": "books1.png",
+                "height": 61
+            },
+            "nodeParent": 2,
+            "label": "book4",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 10,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,book5",
+            "props": {
+                "y": 467,
+                "x": 224.5,
+                "width": 79,
+                "var": "book5",
+                "texture": "books1.png",
+                "height": 61
+            },
+            "nodeParent": 2,
+            "label": "book5",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 11,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,book6",
+            "props": {
+                "y": 467,
+                "x": 303.5,
+                "width": 79,
+                "var": "book6",
+                "texture": "books1.png",
+                "height": 61
+            },
+            "nodeParent": 2,
+            "label": "book6",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 12,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,daizi4",
+            "props": {
+                "y": 486,
+                "x": 238.5,
+                "visible": false,
+                "var": "daizi4",
+                "texture": "daizi4.png",
+                "rotation": -63
+            },
+            "nodeParent": 2,
+            "label": "daizi4",
+            "isOpen": false,
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 21,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,daizi5",
+            "props": {
+                "y": 546,
+                "x": 224.5,
+                "var": "daizi5",
+                "visible": false,
+                "texture": "daizi5.png",
+                "scaleY": -1,
+                "rotation": 2
+            },
+            "nodeParent": 2,
+            "label": "daizi5",
+            "isOpen": false,
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 22,
+            "child": [],
+            "$HIDDEN": false
+        },
+        
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,daizi6",
+            "props": {
+                "y": 575,
+                "x": 164,
+                "visible": false,
+                "var": "daizi6",
+                "texture": "daizi6.png"
+            },
+            "nodeParent": 2,
+            "label": "daizi6",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 25,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,dbook1",
+            "props": {
+                "y": 570.5,
+                "x": 193,
+                "visible": false,
+                "var": "dbook1",
+                "texture": "books2.png"
+            },
+            "nodeParent": 2,
+            "label": "dbook1",
+            "isOpen": true,
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 15,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,dbook2",
+            "props": {
+                "y": 577.5,
+                "x": 58.5,
+                "visible": false,
+                "var": "dbook2",
+                "texture": "books3.png"
+            },
+            "nodeParent": 2,
+            "label": "dbook2",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 16,
+            "child": []
+        },
+        
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,dbook3",
+            "props": {
+                "y": 567.5,
+                "x": 346,
+                "visible": false,
+                "var": "dbook3",
+                "texture": "books4.png"
+            },
+            "nodeParent": 2,
+            "label": "dbook3",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 17,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,daizi7",
+            "props": {
+                "y": 544,
+                "x": 190,
+                "visible": false,
+                "var": "daizi7",
+                "texture": "daizi7.png"
+            },
+            "nodeParent": 2,
+            "label": "daizi7",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 27,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,dbook4",
+            "props": {
+                "y": 623,
+                "x": 206,
+                "visible": false,
+                "width": 170,
+                "var": "dbook4",
+                "texture": "books5.png",
+                "rotation": 3,
+                "height": 38
+            },
+            "nodeParent": 2,
+            "label": "dbook4",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 18,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,dbook5",
+            "props": {
+                "y": 632,
+                "x": 338,
+                "visible": false,
+                "var": "dbook5",
+                "texture": "books2.png"
+            },
+            "nodeParent": 2,
+            "label": "dbook5",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 19,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,dbook6",
+            "props": {
+                "y": 624.5,
+                "x": 72.5,
+                "visible": false,
+                "var": "dbook6",
+                "texture": "books3.png"
+            },
+            "nodeParent": 2,
+            "label": "dbook6",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 20,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,helper",
+            "props": {
+                "y": 545,
+                "x": 60,
+                "width": 520,
+                "var": "helper",
+                "texture": "helper.png",
+                "height": 150,
+                "alpha": 0
+            },
+            "nodeParent": 2,
+            "label": "helper",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 27,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,daizi3",
+            "props": {
+                "y": 347,
+                "x": 264,
+                "visible": false,
+                "var": "daizi3",
+                "texture": "daizi3.png"
+            },
+            "nodeParent": 2,
+            "label": "daizi3",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 14,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Animation",
+            "searchKey": "Animation,boy_walk,boy_anim",
+            "props": {
+                "y": 830,
+                "x": -200,
+                "var": "mActor",
+                "texture": "boy_png",
+                "autoAnimation": "walk",
+                "runtime": "boy_json",
+                "name": "boy",
+                "autoPlay": true,
+                "loop": true
+            },
+            "nodeParent": 2,
+            "label": "boy",
+            "isOpen": true,
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 4,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Animation",
+            "searchKey": "Animation,girl,girl_anim",
+            "props": {
+                "y": 800,
+                "x": -200,
+                "var": "mA_girl",
+                "texture": "girl_png",
+                "autoAnimation": "walk",
+                "runtime": "girl_json",
+                "name": "girl",
+                "autoPlay": true,
+                "loop": true
+            },
+            "nodeParent": 2,
+            "label": "girl",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 5,
+            "child": []
+        }
+    ],
+    "keys": [
+        {
+            "id": 0,
+            "isOn": false
+        },
+        {
+            "id": 1,
+            "isOn": false
+        },
+        {
+            "id": 2,
+            "isOn": false
+        },
+        {
+            "id": 3,
+            "isOn": false
+        },
+        {
+            "id": 4,
+            "isOn": false
+        },
+        {
+            "id": 5,
+            "isOn": false
+        }
+    ],
+    "events": [
+        {
+            "id": 0,
+            "bind": "book1",
+            "type": "touch",
+            "on": [
+                0,
+                12,
+                6,
+                29
+            ],
+            "once": true,
+            "lock": [],
+            "item": null
+        },
+        {
+            "id": 1,
+            "bind": "book2",
+            "type": "touch",
+            "on": [
+                1,
+                12,
+                7,
+                30
+            ],
+            "once": false,
+            "lock": [],
+            "item": null
+        },
+        {
+            "id": 2,
+            "bind": "book3",
+            "type": "touch",
+            "on": [
+                2,
+                12,
+                8,
+                31
+            ],
+            "once": false,
+            "lock": [],
+            "item": null
+        },
+        {
+            "id": 3,
+            "bind": "book4",
+            "type": "touch",
+            "on": [
+                3,
+                12,
+                9,
+                32
+            ],
+            "once": false,
+            "lock": [],
+            "item": null
+        },
+        {
+            "id": 4,
+            "bind": "book5",
+            "type": "touch",
+            "on": [
+                4,
+                12,
+                10,
+                33
+            ],
+            "once": false,
+            "lock": [],
+            "item": null
+        },
+        {
+            "id": 5,
+            "bind": "book6",
+            "type": "touch",
+            "on": [
+                5,
+                12,
+                11,
+                34
+            ],
+            "once": false,
+            "lock": [],
+            "item": null
+        },
+        {
+            "id": 6,
+            "bind": "helper",
+            "type": "touch",
+            "on": [
+                13,
+                15,
+                17,
+                16,
+                18,
+                37,
+                39,
+                19,
+                20,
+                22
+            ],
+            "once": false,
+            "lock": [
+                {
+                    "id": "1",
+                    "isOn": true
+                },
+                {
+                    "id": "2",
+                    "isOn": true
+                },
+                {
+                    "id": "3",
+                    "isOn": true
+                },
+                {
+                    "id": "4",
+                    "isOn": true
+                },
+                {
+                    "id": "5",
+                    "isOn": true
+                },
+                {
+                    "id": "0",
+                    "isOn": true
+                }
+            ],
+            "item": null
+        },
+        {
+            "id": 7,
+            "bind": "guizi",
+            "type": "touch",
+            "on": [
+                13,
+                14,
+                17,
+                16,
+                23,
+                26,
+                24,
+                25,
+                27
+            ],
+            "once": false,
+            "lock": [
+                {
+                    "id": "1",
+                    "isOn": true
+                },
+                {
+                    "id": "2",
+                    "isOn": true
+                },
+                {
+                    "id": "3",
+                    "isOn": true
+                },
+                {
+                    "id": "4",
+                    "isOn": true
+                },
+                {
+                    "id": "5",
+                    "isOn": true
+                },
+                {
+                    "id": "0",
+                    "isOn": true
+                }
+            ],
+            "item": null
+        },
+        {
+            "id": 8,
+            "bind": "mActor",
+            "type": "orign",
+            "on": [
+                35,
+                36
+            ],
+            "once": false,
+            "lock": [],
+            "item": null
+        }
+    ],
+    "items": [],
+    "actions": [
+        {
+            "id": 0,
+            "actor": "book1",
+            "todo": {
+                "props": {
+                    "visible": false
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 1,
+            "actor": "book2",
+            "todo": {
+                "props": {
+                    "visible": false
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 2,
+            "actor": "book3",
+            "todo": {
+                "props": {
+                    "visible": false
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 3,
+            "actor": "book4",
+            "todo": {
+                "props": {
+                    "visible": false
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 4,
+            "actor": "book5",
+            "todo": {
+                "props": {
+                    "visible": false
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 5,
+            "actor": "book6",
+            "todo": {
+                "props": {
+                    "visible": false
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 6,
+            "actor": "dbook1",
+            "todo": {
+                "props": {
+                    "visible": true
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 7,
+            "actor": "dbook2",
+            "todo": {
+                "props": {
+                    "visible": true
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 8,
+            "actor": "dbook3",
+            "todo": {
+                "props": {
+                    "visible": true
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 9,
+            "actor": "dbook4",
+            "todo": {
+                "props": {
+                    "visible": true
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 10,
+            "actor": "dbook5",
+            "todo": {
+                "props": {
+                    "visible": true
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 11,
+            "actor": "dbook6",
+            "todo": {
+                "props": {
+                    "visible": true
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 12,
+            "actor": "mActor",
+            "todo": {
+                "props": {},
+                "type": "sound",
+                "res": "book_mp3"
+            }
+        },
+        {
+            "id": 13,
+            "actor": "mActor",
+            "todo": {
+                "props": {
+                    "visible": false
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 14,
+            "actor": "daizi3",
+            "todo": {
+                "props": {
+                    "y": 348,
+                    "visible": true
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 15,
+            "actor": "daizi3",
+            "todo": {
+                "props": {
+                    "y": 505,
+                    "visible": true
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 16,
+            "actor": "daizi3",
+            "todo": {
+                "props": {
+                    "visible": false
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 17,
+            "actor": "mActor",
+            "todo": {
+                "props": {},
+                "type": "wait",
+                "time": "800"
+            }
+        },
+        {
+            "id": 18,
+            "actor": "daizi6",
+            "todo": {
+                "props": {
+                    "visible": true
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 19,
+            "actor": "daizi6",
+            "todo": {
+                "props": {
+                    "visible": false
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 20,
+            "actor": "daizi7",
+            "todo": {
+                "props": {
+                    "visible": true
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 21,
+            "actor": "mA_girl",
+            "todo": {
+                "props": {
+                    "visible": true
+                },
+                "type": "wait",
+                "time": 0
+            }
+        },
+        {
+            "id": 22,
+            "actor": "mActor",
+            "todo": {
+                "props": {
+                    "visible": true
+                },
+                "type": "clear"
+            }
+        },
+        {
+            "id": 23,
+            "actor": "mActor",
+            "todo": {
+                "props": {},
+                "type": "fail",
+                "res": ""
+            }
+        },
+        {
+            "id": 24,
+            "actor": "daizi4",
+            "todo": {
+                "props": {
+                    "visible": true
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 25,
+            "actor": "daizi5",
+            "todo": {
+                "props": {
+                    "visible": false
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 26,
+            "actor": "daizi7",
+            "todo": {
+                "props": {
+                    "visible": true
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 27,
+            "actor": "mActor",
+            "todo": {
+                "props": {
+                    "visible": true
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 28,
+            "actor": "mActor",
+            "todo": {
+                "props": {},
+                "type": "over",
+                "res": ""
+            }
+        },
+        {
+            "id": 29,
+            "actor": "mActor",
+            "todo": {
+                "props": {},
+                "type": "key",
+                "key": {
+                    "id": "0",
+                    "isOn": true
+                }
+            }
+        },
+        {
+            "id": 30,
+            "actor": "mActor",
+            "todo": {
+                "props": {},
+                "type": "key",
+                "key": {
+                    "id": "1",
+                    "isOn": true
+                }
+            }
+        },
+        {
+            "id": 31,
+            "actor": "mActor",
+            "todo": {
+                "props": {},
+                "type": "key",
+                "key": {
+                    "id": "2",
+                    "isOn": true
+                }
+            }
+        },
+        {
+            "id": 32,
+            "actor": "mActor",
+            "todo": {
+                "props": {},
+                "type": "key",
+                "key": {
+                    "id": "3",
+                    "isOn": true
+                }
+            }
+        },
+        {
+            "id": 33,
+            "actor": "mActor",
+            "todo": {
+                "props": {},
+                "type": "key",
+                "key": {
+                    "id": "4",
+                    "isOn": true
+                }
+            }
+        },
+        {
+            "id": 34,
+            "actor": "mActor",
+            "todo": {
+                "props": {},
+                "type": "key",
+                "key": {
+                    "id": "5",
+                    "isOn": true
+                }
+            }
+        },
+        {
+            "id": 35,
+            "actor": "mActor",
+            "todo": {
+                "props": {
+                    "x": 250,
+                    "visible": true
+                },
+                "type": "tween",
+                "time": 300
+            }
+        },
+        {
+            "id": 36,
+            "actor": "mActor",
+            "todo": {
+                "props": {},
+                "type": "a_play",
+                "animate": {
+                    "isLoop": true,
+                    "label": "note2"
+                }
+            }
+        },
+        {
+            "id": 37,
+            "actor": "mA_girl",
+            "todo": {
+                "props": {
+                    "x": 500,
+                    "visible": true
+                },
+                "type": "tween",
+                "time": 2000
+            }
+        },
+        {
+            "id": 38,
+            "actor": "mA_girl",
+            "todo": {
+                "props": {},
+                "type": "a_play",
+                "animate": {
+                    "isLoop": true,
+                    "label": "find"
+                }
+            }
+        },
+        {
+            "id": 39,
+            "actor": "mA_girl",
+            "todo": {
+                "props": {
+                    "x": -200,
+                    "visible": true
+                },
+                "type": "tween",
+                "time": 2000
+            }
+        },
+        {
+            "id": 40,
+            "actor": "mActor",
+            "todo": {
+                "props": {},
+                "type": "clear",
+                "res": ""
+            }
+        }
+    ],
+    "animates": [],
+    "hints": "书架上好多书啊，好像书总能帮到我们"
+}

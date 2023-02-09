@@ -1,0 +1,26 @@
+{"mc":{
+	"default":{
+		"frameRate":24,
+		"events":[
+			
+			],
+		"frames":[
+			
+			{
+			"res":"5A69EFD1",
+			"x":23,
+			"y":-80,
+			"duration":48
+			},
+			{
+			"res":"EAED4AB8",
+			"x":0,
+			"y":-30,
+			"duration":48
+			}
+			]
+}},
+	"res":{
+		"EAED4AB8":{"x":1,"y":1,"w":179,"h":369},
+		"5A69EFD1":{"x":182,"y":1,"w":131,"h":266}
+	}}

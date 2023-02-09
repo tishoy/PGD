@@ -1,0 +1,1103 @@
+{
+    "init": [
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite",
+            "props": {
+                "y": 0,
+                "x": 0,
+                "width": 1306,
+                "texture": "stage_bg.png",
+                "height": 1137
+            },
+            "nodeParent": 2,
+            "label": "Sprite",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 3,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite",
+            "props": {
+                "y": 374,
+                "x": 0,
+                "visible": false,
+                "texture": "room3.png"
+            },
+            "nodeParent": 2,
+            "label": "Sprite",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 4,
+            "child": [],
+            "$HIDDEN": false
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,desk",
+            "props": {
+                "y": 600,
+                "x": 1018,
+                "var": "desk",
+                "texture": "desk.png"
+            },
+            "nodeParent": 2,
+            "label": "desk",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 7,
+            "child": [],
+            "$HIDDEN": false
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,desk2",
+            "props": {
+                "y": 621,
+                "x": 961,
+                "visible": false,
+                "var": "desk2",
+                "texture": "desk2.png"
+            },
+            "nodeParent": 2,
+            "label": "desk2",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 9,
+            "child": [],
+            "$HIDDEN": false
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,desk1",
+            "props": {
+                "y": 600,
+                "x": 975,
+                "visible": false,
+                "var": "desk1",
+                "texture": "desk1.png"
+            },
+            "nodeParent": 2,
+            "label": "desk1",
+            "isOpen": false,
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 32,
+            "child": [],
+            "$HIDDEN": false
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,sofa",
+            "props": {
+                "y": 487,
+                "x": 148,
+                "var": "sofa",
+                "texture": "sofa.png"
+            },
+            "nodeParent": 2,
+            "label": "sofa",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 10,
+            "child": [],
+            "$HIDDEN": false
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,daizi1",
+            "props": {
+                "y": 466.5,
+                "x": 863.5,
+                "visible": false,
+                "var": "daizi1",
+                "texture": "daizi1.png"
+            },
+            "nodeParent": 2,
+            "label": "daizi1",
+            "isOpen": true,
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 22,
+            "child": [],
+            "$HIDDEN": false
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,zhuatou",
+            "props": {
+                "y": 452,
+                "x": 851,
+                "width": 88,
+                "visible": false,
+                "var": "zhuatou",
+                "texture": "zhuatou.png",
+                "height": 217
+            },
+            "nodeParent": 2,
+            "label": "zhuatou",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 23,
+            "child": [],
+            "$HIDDEN": false
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,lianziL",
+            "props": {
+                "y": 375,
+                "x": 723,
+                "width": 133,
+                "var": "lianziL",
+                "texture": "lian2.png",
+                "anchorOffsetX": 66,
+                "anchorOffsetY": 106,
+                "skewX": 8,
+                "scaleX": 1,
+                "rotation": 10,
+                "height": 212
+            },
+            "nodeParent": 2,
+            "label": "lianziL",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 11,
+            "child": [],
+            "$HIDDEN": true
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,lianziR",
+            "props": {
+                "y": 400,
+                "x": 851,
+                "width": 127,
+                "var": "lianziR",
+                "texture": "lian2.png",
+                "anchorOffsetX": 63,
+                "anchorOffsetY": 108,
+                "skewX": 9,
+                "scaleX": 1,
+                "rotation": 10,
+                "height": 217
+            },
+            "nodeParent": 2,
+            "label": "lianziR",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 12,
+            "child": [],
+            "$HIDDEN": false
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,helper1",
+            "props": {
+                "y": 381,
+                "x": 724,
+                "width": 127,
+                "var": "helper1",
+                "texture": "helper.png",
+                "skewY": 15,
+                "height": 189
+            },
+            "nodeParent": 2,
+            "label": "helper1",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 33,
+            "child": [],
+            "$HIDDEN": false
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,helper2",
+            "props": {
+                "y": 406,
+                "x": 851,
+                "width": 127,
+                "var": "helper2",
+                "texture": "helper.png",
+                "skewY": 15,
+                "height": 189
+            },
+            "nodeParent": 2,
+            "label": "helper2",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 34,
+            "child": [],
+            "$HIDDEN": false
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,duanlianL",
+            "props": {
+                "y": 373,
+                "x": 723,
+                "width": 39,
+                "visible": false,
+                "var": "duanlianL",
+                "texture": "lian2.png",
+                "skewX": 8,
+                "scaleX": 1,
+                "rotation": 10,
+                "height": 212
+            },
+            "nodeParent": 2,
+            "label": "duanlianL",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 13,
+            "child": [],
+            "$HIDDEN": false
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,duanlianR",
+            "props": {
+                "y": 419,
+                "x": 939,
+                "width": 39,
+                "visible": false,
+                "var": "duanlianR",
+                "texture": "lian2.png",
+                "skewX": 8,
+                "scaleX": 1,
+                "rotation": 10,
+                "height": 212
+            },
+            "nodeParent": 2,
+            "label": "duanlianR",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 14,
+            "child": [],
+            "$HIDDEN": false
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,daizi9",
+            "props": {
+                "y": 436,
+                "x": 216,
+                "visible": false,
+                "var": "daizi9",
+                "texture": "daizi9.png"
+            },
+            "nodeParent": 2,
+            "label": "daizi9",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 15,
+            "child": [],
+            "$HIDDEN": false
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,daizi8",
+            "props": {
+                "y": 472,
+                "x": 221,
+                "visible": false,
+                "var": "daizi8",
+                "texture": "daizi8.png"
+            },
+            "nodeParent": 2,
+            "label": "daizi8",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 17,
+            "child": [],
+            "$HIDDEN": false
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,baozhi",
+            "props": {
+                "y": 457,
+                "x": 216,
+                "visible": false,
+                "var": "baozhi",
+                "texture": "baozhi.png"
+            },
+            "nodeParent": 2,
+            "label": "baozhi",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 16,
+            "child": [],
+            "$HIDDEN": false
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,duocang1",
+            "props": {
+                "y": 594,
+                "x": 179,
+                "visible": false,
+                "var": "duocang1",
+                "texture": "duocang1.png"
+            },
+            "nodeParent": 2,
+            "label": "duocang1",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 18,
+            "child": [],
+            "$HIDDEN": false
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,duocang2",
+            "props": {
+                "y": 550,
+                "x": 180,
+                "var": "duocang2",
+                "visible": false,
+                "texture": "duocang2.png"
+            },
+            "nodeParent": 2,
+            "label": "duocang2",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 19,
+            "child": [],
+            "$HIDDEN": false
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,beidui2",
+            "props": {
+                "y": 439,
+                "x": 207.5,
+                "visible": false,
+                "var": "beidui2",
+                "texture": "beidui2.png"
+            },
+            "nodeParent": 2,
+            "label": "beidui2",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 20,
+            "child": [],
+            "$HIDDEN": false
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,beidui1",
+            "props": {
+                "y": 450,
+                "x": 224.5,
+                "visible": false,
+                "var": "beidui1",
+                "texture": "beidui1.png"
+            },
+            "nodeParent": 2,
+            "label": "beidui1",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 21,
+            "child": [],
+            "$HIDDEN": false
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,paper",
+            "props": {
+                "y": 663,
+                "x": 1030.5,
+                "visible": false,
+                "var": "paper",
+                "texture": "paper.png"
+            },
+            "nodeParent": 2,
+            "label": "paper",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 31,
+            "child": [],
+            "$HIDDEN": false
+        },
+        {
+            "x": 15,
+            "type": "Animation",
+            "searchKey": "Animation,boy_walk,boy_anim",
+            "props": {
+                "y": 830,
+                "x": -200,
+                "var": "mActor",
+                "texture": "boy_png",
+                "autoAnimation": "walk",
+                "runtime": "boy_json",
+                "name": "boy",
+                "autoPlay": true,
+                "loop": true
+            },
+            "nodeParent": 2,
+            "label": "boy",
+            "isOpen": true,
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 4,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Animation",
+            "searchKey": "Animation,girl,girl_anim",
+            "props": {
+                "y": 800,
+                "x": -200,
+                "var": "mA_girl",
+                "texture": "girl_png",
+                "autoAnimation": "find_walk",
+                "runtime": "girl_json",
+                "name": "girl",
+                "autoPlay": true,
+                "loop": true
+            },
+            "nodeParent": 2,
+            "label": "girl",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 5,
+            "child": []
+        }
+    ],
+    "keys": [],
+    "events": [
+        {
+            "id": 0,
+            "bind": "desk",
+            "type": "touch",
+            "on": [
+                0,
+                1,
+                2,
+                3,
+                4
+            ],
+            "once": true,
+            "lock": [],
+            "item": null
+        },
+        {
+            "id": 1,
+            "bind": "paper",
+            "type": "touch",
+            "on": [
+                5,
+                6
+            ],
+            "once": false,
+            "lock": [],
+            "item": null
+        },
+        {
+            "id": 2,
+            "bind": "lianziL",
+            "type": "touch",
+            "on": [
+                7,
+                8,
+                9
+            ],
+            "once": true,
+            "lock": [],
+            "item": null
+        },
+        {
+            "id": 3,
+            "bind": "lianziR",
+            "type": "touch",
+            "on": [
+                10,
+                9,
+                11
+            ],
+            "once": true,
+            "lock": [],
+            "item": null
+        },
+        {
+            "id": 4,
+            "bind": "helper1",
+            "type": "touch",
+            "on": [
+                12,
+                13,
+                14,
+                8,
+                15,
+                16,
+                17,
+                18,
+                19
+            ],
+            "once": false,
+            "lock": [],
+            "item": null
+        },
+        {
+            "id": 5,
+            "bind": "sofa",
+            "type": "touch",
+            "on": [
+                12,
+                22,
+                23,
+                24,
+                25,
+                16,
+                26,
+                27,
+                18,
+                19
+            ],
+            "once": false,
+            "lock": [],
+            "item": null
+        },
+        {
+            "id": 6,
+            "bind": "sofa",
+            "type": "touch",
+            "on": [
+                18,
+                28,
+                23,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36
+            ],
+            "once": false,
+            "lock": [],
+            "item": null
+        },
+        {
+            "id": 7,
+            "bind": "mActor",
+            "type": "orign",
+            "on": [
+                43,
+                44
+            ],
+            "once": false,
+            "lock": [],
+            "item": null
+        }
+    ],
+    "items": [
+        {
+            "id": 0,
+            "name": "",
+            "res": "paper_png"
+        }
+    ],
+    "actions": [
+        {
+            "id": 0,
+            "actor": "desk",
+            "todo": {
+                "props": {
+                    "visible": false
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 1,
+            "actor": "mActor",
+            "todo": {
+                "props": {},
+                "type": "sound",
+                "res": "desk_mp3"
+            }
+        },
+        {
+            "id": 2,
+            "actor": "desk1",
+            "todo": {
+                "props": {
+                    "visible": true
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 3,
+            "actor": "desk2",
+            "todo": {
+                "props": {
+                    "visible": true
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 4,
+            "actor": "paper",
+            "todo": {
+                "props": {
+                    "visible": true
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 5,
+            "actor": "paper",
+            "todo": {
+                "props": {
+                    "visible": false
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 6,
+            "actor": "mActor",
+            "todo": {
+                "props": {},
+                "type": "item",
+                "item": "0"
+            }
+        },
+        {
+            "id": 7,
+            "actor": "lianL",
+            "todo": {
+                "props": {
+                    "visible": false
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 8,
+            "actor": "mActor",
+            "todo": {
+                "props": {},
+                "type": "sound",
+                "res": "lian_mp3"
+            }
+        },
+        {
+            "id": 9,
+            "actor": "duanlianL",
+            "todo": {
+                "props": {
+                    "visible": true
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 10,
+            "actor": "linziR",
+            "todo": {
+                "props": {
+                    "visible": false
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 11,
+            "actor": "duanlianR",
+            "todo": {
+                "props": {
+                    "visible": true
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 12,
+            "actor": "mActor",
+            "todo": {
+                "props": {
+                    "visible": false
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 13,
+            "actor": "daizi11",
+            "todo": {
+                "props": {
+                    "visible": true
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 14,
+            "actor": "duanlianL",
+            "todo": {
+                "props": {
+                    "visible": false
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 15,
+            "actor": "lianziL",
+            "todo": {
+                "props": {
+                    "visible": true
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 16,
+            "actor": "mActor",
+            "todo": {
+                "props": {
+                    "visible": true
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 17,
+            "actor": "zhuatou",
+            "todo": {
+                "props": {
+                    "visible": true
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 18,
+            "actor": "mActor",
+            "todo": {
+                "props": {
+                    "visible": true
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 19,
+            "actor": "mActor",
+            "todo": {
+                "props": {},
+                "type": "over",
+                "res": ""
+            }
+        },
+        {
+            "id": 20,
+            "actor": "duanlianR",
+            "todo": {
+                "props": {
+                    "visible": false
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 21,
+            "actor": "lianziR",
+            "todo": {
+                "props": {
+                    "visible": true
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 22,
+            "actor": "beidui1",
+            "todo": {
+                "props": {
+                    "visible": true
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 23,
+            "actor": "mActor",
+            "todo": {
+                "props": {},
+                "type": "wait",
+                "time": "800"
+            }
+        },
+        {
+            "id": 24,
+            "actor": "beidui1",
+            "todo": {
+                "props": {
+                    "visible": false
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 25,
+            "actor": "duocang1",
+            "todo": {
+                "props": {
+                    "visible": true
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 26,
+            "actor": "duocang1",
+            "todo": {
+                "props": {
+                    "visible": false
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 27,
+            "actor": "duocang2",
+            "todo": {
+                "props": {
+                    "visible": true
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 28,
+            "actor": "beidui2",
+            "todo": {
+                "props": {
+                    "visible": true
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 29,
+            "actor": "beidui2",
+            "todo": {
+                "props": {
+                    "visible": false
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 30,
+            "actor": "baozhi",
+            "todo": {
+                "props": {
+                    "visible": true
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 31,
+            "actor": "daizi8",
+            "todo": {
+                "props": {
+                    "visible": true
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 32,
+            "actor": "mActor",
+            "todo": {
+                "props": {
+                    "visible": true
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 33,
+            "actor": "baozhi",
+            "todo": {
+                "props": {
+                    "visible": false
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 34,
+            "actor": "daizi8",
+            "todo": {
+                "props": {
+                    "visible": false
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 35,
+            "actor": "daizi9",
+            "todo": {
+                "props": {
+                    "visible": true
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 36,
+            "actor": "mActor",
+            "todo": {
+                "props": {},
+                "type": "clear",
+                "res": ""
+            }
+        },
+        {
+            "id": 37,
+            "actor": "mActor",
+            "todo": {
+                "props": {
+                    "visible": true
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 38,
+            "actor": "mActor",
+            "todo": {
+                "props": {
+                    "visible": true
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 39,
+            "actor": "mActor",
+            "todo": {
+                "props": {
+                    "visible": true
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 40,
+            "actor": "mActor",
+            "todo": {
+                "props": {
+                    "visible": true
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 41,
+            "actor": "mActor",
+            "todo": {
+                "props": {
+                    "visible": true
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 42,
+            "actor": "mActor",
+            "todo": {
+                "props": {
+                    "visible": true
+                },
+                "type": "simple"
+            }
+        }, {
+            "id": 43,
+            "actor": "mActor",
+            "todo": {
+                "props": {
+                    "x": 250,
+                    "visible": true
+                },
+                "type": "tween",
+                "time": 300
+            }
+        },
+        {
+            "id": 44,
+            "actor": "mActor",
+            "todo": {
+                "props": {},
+                "type": "a_play",
+                "animate": {
+                    "isLoop": true,
+                    "label": "note2"
+                }
+            }
+        }
+    ],
+    "animates": [],
+    "hints": ""
+}

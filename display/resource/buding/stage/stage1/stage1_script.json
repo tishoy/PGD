@@ -1,0 +1,590 @@
+{
+    "init": [
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite",
+            "props": {
+                "y": 0,
+                "x": 0,
+                "width": 1280,
+                "texture": "stage_bg.png",
+                "height": 1136
+            },
+            "nodeParent": 2,
+            "label": "Sprite",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 17,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite",
+            "props": {
+                "y": 300,
+                "x": 0,
+                "texture": "room1.png"
+            },
+            "nodeParent": 2,
+            "label": "Sprite",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 18,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,helper1",
+            "props": {
+                "y": 290,
+                "x": 200,
+                "width": 107,
+                "var": "helper1",
+                "texture": "helper.png",
+                "height": 178,
+                "alpha": 0
+            },
+            "nodeParent": 2,
+            "label": "helper1",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 27,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,helper2",
+            "props": {
+                "y": 290,
+                "x": 318,
+                "width": 102,
+                "var": "helper2",
+                "texture": "helper.png",
+                "height": 178,
+                "alpha": 0
+            },
+            "nodeParent": 2,
+            "label": "helper2",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 28,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,daizi2",
+            "props": {
+                "y": 350,
+                "x": 198,
+                "visible": false,
+                "var": "daizi2",
+                "texture": "daizi2.png"
+            },
+            "nodeParent": 2,
+            "label": "daizi2",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 24,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,daizi1",
+            "props": {
+                "y": 350,
+                "x": 213,
+                "visible": false,
+                "var": "daizi1",
+                "texture": "daizi1.png"
+            },
+            "nodeParent": 2,
+            "label": "daizi1",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 25,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,lianziL",
+            "props": {
+                "y": 300,
+                "x": 172,
+                "width": 136,
+                "var": "lianziL",
+                "texture": "lian.png",
+                "height": 198
+            },
+            "nodeParent": 2,
+            "label": "lianziL",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 19,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,lianziR",
+            "props": {
+                "y": 300,
+                "x": 307,
+                "width": 143,
+                "var": "lianziR",
+                "texture": "lian.png",
+                "height": 198
+            },
+            "nodeParent": 2,
+            "label": "lianziR",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 20,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,shoulianR",
+            "props": {
+                "y": 300,
+                "x": 409,
+                "width": 38,
+                "visible": false,
+                "var": "shoulianR",
+                "texture": "lian.png",
+                "height": 198
+            },
+            "nodeParent": 2,
+            "label": "shoulianR",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 21,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,shoulianL",
+            "props": {
+                "y": 300,
+                "x": 179,
+                "width": 38,
+                "visible": false,
+                "var": "shoulianL",
+                "texture": "lian.png",
+                "height": 198
+            },
+            "nodeParent": 2,
+            "label": "shoulianL",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 22,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Animation",
+            "searchKey": "Animation,boy_walk,boy_anim",
+            "props": {
+                "y": 830,
+                "x": -200,
+                "var": "mActor",
+                "texture": "boy_png",
+                "autoAnimation": "walk",
+                "runtime": "boy_json",
+                "name": "boy",
+                "autoPlay": true,
+                "loop": true
+            },
+            "nodeParent": 2,
+            "label": "boy",
+            "isOpen": true,
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 4,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Animation",
+            "searchKey": "Animation,girl,girl_anim",
+            "props": {
+                "y": 800,
+                "x": -200,
+                "var": "mA_girl",
+                "texture": "girl_png",
+                "autoAnimation": "find_walk",
+                "runtime": "girl_json",
+                "name": "girl",
+                "autoPlay": true,
+                "loop": true
+            },
+            "nodeParent": 2,
+            "label": "girl",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 5,
+            "child": []
+        }
+    ],
+    "keys": [],
+    "events": [
+        {
+            "id": 0,
+            "bind": "lianziL",
+            "type": "touch",
+            "on": [
+                1,
+                3,
+                4
+            ],
+            "once": false,
+            "lock": [],
+            "item": null
+        },
+        {
+            "id": 1,
+            "bind": "lianziR",
+            "type": "touch",
+            "on": [
+                6,
+                3,
+                8
+            ],
+            "once": false,
+            "lock": [],
+            "item": null
+        },
+        {
+            "id": 2,
+            "bind": "helper1",
+            "type": "touch",
+            "on": [
+                0,
+                10,
+                17,
+                5,
+                3,
+                2,
+                14,
+                19,
+                15,
+                1,
+                3,
+                4,
+                17,
+                12,
+                13,
+                16
+            ],
+            "once": false,
+            "lock": [],
+            "item": null
+        },
+        {
+            "id": 3,
+            "bind": "helper2",
+            "type": "touch",
+            "on": [
+                0,
+                11,
+                17,
+                9,
+                3,
+                7,
+                14,
+                19,
+                15,
+                6,
+                3,
+                8,
+                17,
+                12,
+                18,
+                16
+            ],
+            "once": false,
+            "lock": [],
+            "item": null
+        },
+        {
+            "id": 3,
+            "bind": "mActor",
+            "type": "orign",
+            "on": [
+                20,
+                21
+            ],
+            "once": false,
+            "lock": [],
+            "item": null
+        }
+    ],
+    "items": [],
+    "actions": [
+        {
+            "id": 0,
+            "actor": "mActor",
+            "todo": {
+                "props": {
+                    "visible": false
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 1,
+            "actor": "lianziL",
+            "todo": {
+                "props": {
+                    "visible": false
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 2,
+            "actor": "lianziL",
+            "todo": {
+                "props": {
+                    "visible": true
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 3,
+            "actor": "",
+            "todo": {
+                "props": {},
+                "type": "sound",
+                "res": "lian_mp3"
+            }
+        },
+        {
+            "id": 4,
+            "actor": "shoulianL",
+            "todo": {
+                "props": {
+                    "visible": true
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 5,
+            "actor": "shoulianL",
+            "todo": {
+                "props": {
+                    "visible": false
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 6,
+            "actor": "lianziR",
+            "todo": {
+                "props": {
+                    "visible": false
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 7,
+            "actor": "lianziR",
+            "todo": {
+                "props": {
+                    "visible": true
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 8,
+            "actor": "shoulianR",
+            "todo": {
+                "props": {
+                    "visible": true
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 9,
+            "actor": "shoulianR",
+            "todo": {
+                "props": {
+                    "visible": false
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 10,
+            "actor": "daizi1",
+            "todo": {
+                "props": {
+                    "x": 204,
+                    "y": 350,
+                    "visible": true
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 11,
+            "actor": "daizi1",
+            "todo": {
+                "props": {
+                    "x": 318,
+                    "y": 350,
+                    "visible": true
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 12,
+            "actor": "daizi1",
+            "todo": {
+                "props": {
+                    "visible": false
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 13,
+            "actor": "daizi2",
+            "todo": {
+                "props": {
+                    "x": 204,
+                    "y": 350,
+                    "visible": true
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 14,
+            "actor": "mA_girl",
+            "todo": {
+                "props": {
+                    "x": 500,
+                    "visible": true
+                },
+                "type": "tween",
+                "time": 2000
+            }
+        },
+        {
+            "id": 15,
+            "actor": "mA_girl",
+            "todo": {
+                "props": {
+                    "x": -200,
+                    "visible": true
+                },
+                "type": "tween",
+                "time": 2000
+            }
+        },
+        {
+            "id": 16,
+            "actor": "mActor",
+            "todo": {
+                "props": {},
+                "type": "clear",
+                "res": ""
+            }
+        },
+        {
+            "id": 17,
+            "actor": "mActor",
+            "todo": {
+                "props": {},
+                "type": "wait",
+                "time": "500"
+            }
+        },
+        {
+            "id": 18,
+            "actor": "daizi2",
+            "todo": {
+                "props": {
+                    "x": 318,
+                    "y": 350,
+                    "visible": true
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 19,
+            "actor": "mA_girl",
+            "todo": {
+                "props": {
+                    "scaleX": -1,
+                    "visible": true
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 20,
+            "actor": "mActor",
+            "todo": {
+                "props": {
+                    "x": 250,
+                    "visible": true
+                },
+                "type": "tween",
+                "time": 300
+            }
+        },
+        {
+            "id": 21,
+            "actor": "mActor",
+            "todo": {
+                "props": {},
+                "type": "a_play",
+                "animate": {
+                    "isLoop": true,
+                    "label": "note2"
+                }
+            }
+        }
+    ],
+    "animates": [],
+    "hints": [
+        {
+            "title": "提示",
+            "hint": "点击窗帘藏起来吧"
+        },
+        {
+            "title": "答案",
+            "hint": "1、点击窗帘将窗帘拉开。\n2、再次点击藏进窗帘里。"
+        }
+    ]
+}

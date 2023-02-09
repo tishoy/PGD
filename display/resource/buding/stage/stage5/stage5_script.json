@@ -1,0 +1,869 @@
+{
+    "init": [
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,room",
+            "props": {
+                "y": 0,
+                "x": 0,
+                "var": "room",
+                "texture": "b02_room.png"
+            },
+            "nodeParent": 2,
+            "label": "room",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 3,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,door2",
+            "props": {
+                "y": 195,
+                "x": 262,
+                "visible": false,
+                "var": "door2",
+                "texture": "m21_door2.png"
+            },
+            "nodeParent": 2,
+            "label": "door2",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 5,
+            "child": [],
+            "$HIDDEN": false
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,door1",
+            "props": {
+                "y": 195,
+                "x": 262,
+                "var": "door1",
+                "texture": "m20_door1.png"
+            },
+            "nodeParent": 2,
+            "label": "door1",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 4,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,gori2",
+            "props": {
+                "y": 203,
+                "x": 286,
+                "visible": false,
+                "var": "gori2",
+                "texture": "c16_gori2.png"
+            },
+            "nodeParent": 2,
+            "label": "gori2",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 9,
+            "child": [],
+            "$HIDDEN": false
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite",
+            "props": {
+                "y": 195,
+                "x": 1409,
+                "texture": "m20_door1.png"
+            },
+            "nodeParent": 2,
+            "label": "Sprite",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 6,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,buka8",
+            "props": {
+                "y": 281,
+                "x": 1168,
+                "visible": false,
+                "var": "buka8",
+                "texture": "c21_buka8.png"
+            },
+            "nodeParent": 2,
+            "label": "buka8",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 16,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,yan1",
+            "props": {
+                "y": 249,
+                "x": 1154,
+                "var": "yan1",
+                "texture": "c17_yanA1.png"
+            },
+            "nodeParent": 2,
+            "label": "yan1",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 7,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,bucket",
+            "props": {
+                "y": 511,
+                "x": 75,
+                "var": "bucket",
+                "texture": "m155_buckets2.png"
+            },
+            "nodeParent": 2,
+            "label": "bucket",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 11,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,buka56",
+            "props": {
+                "y": 305,
+                "x": 981,
+                "visible": false,
+                "var": "buka56",
+                "texture": "c167_buka56.png"
+            },
+            "nodeParent": 2,
+            "label": "buka56",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 12,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,boss1",
+            "props": {
+                "y": 684,
+                "x": -218,
+                "var": "boss1",
+                "texture": "c05_boss1.png"
+            },
+            "nodeParent": 2,
+            "label": "boss1",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 13,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,boss2",
+            "props": {
+                "y": 712,
+                "x": 908,
+                "visible": false,
+                "var": "boss2",
+                "texture": "c06_boss2.png"
+            },
+            "nodeParent": 2,
+            "label": "boss2",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 14,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,yan2",
+            "props": {
+                "y": 397,
+                "x": 947,
+                "visible": false,
+                "var": "yan2",
+                "texture": "c18_yanA2.png"
+            },
+            "nodeParent": 2,
+            "label": "yan2",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 15,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,buka2",
+            "props": {
+                "y": 443,
+                "x": 947,
+                "visible": false,
+                "var": "buka2",
+                "texture": "c02_buka2.png"
+            },
+            "nodeParent": 2,
+            "label": "buka2",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 17,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,buka7",
+            "props": {
+                "y": 313,
+                "x": 150,
+                "visible": false,
+                "var": "buka7",
+                "texture": "c20_buka7.png"
+            },
+            "nodeParent": 2,
+            "label": "buka7",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 18,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,buka6",
+            "props": {
+                "y": 291,
+                "x": 252,
+                "visible": false,
+                "var": "buka6",
+                "texture": "c19_buka6.png"
+            },
+            "nodeParent": 2,
+            "label": "buka6",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 19,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,mActor",
+            "props": {
+                "y": 662,
+                "x": 248,
+                "var": "mActor",
+                "texture": "c67_buka0.png"
+            },
+            "nodeParent": 2,
+            "label": "mActor",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 20,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,area",
+            "props": {
+                "y": 119,
+                "x": 853,
+                "width": 700,
+                "visible": true,
+                "var": "area",
+                "texture": "c02_buka2.png",
+                "pivotY": 60,
+                "pivotX": 87,
+                "height": 486,
+                "alpha": 0
+            },
+            "nodeParent": 2,
+            "label": "area",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 21,
+            "child": []
+        }
+    ],
+    "keys": [],
+    "events": [
+        {
+            "id": 0,
+            "bind": "door1",
+            "type": "touch",
+            "on": [
+                29,
+                9,
+                32,
+                30,
+                3,
+                34,
+                5,
+                7,
+                8,
+                37,
+                11,
+                30,
+                43
+            ],
+            "once": true,
+            "item": null
+        },
+        {
+            "id": 1,
+            "bind": "yan1",
+            "type": "touch",
+            "on": [
+                29,
+                32,
+                8,
+                9,
+                8,
+                32,
+                41,
+                13,
+                31,
+                28,
+                14,
+                15,
+                16
+            ],
+            "once": true,
+            "item": null
+        },
+        {
+            "id": 2,
+            "bind": "bucket",
+            "type": "touch",
+            "on": [
+                1,
+                42
+            ],
+            "once": true,
+            "item": null
+        },
+        {
+            "id": 3,
+            "bind": "area",
+            "type": "use_item",
+            "on": [
+                29,
+                32,
+                19,
+                20,
+                24,
+                25,
+                33,
+                40
+            ],
+            "once": true,
+            "item": "0"
+        },
+        {
+            "id": 4,
+            "bind": "area",
+            "type": "use_item",
+            "on": [
+                29,
+                32,
+                17,
+                18,
+                21,
+                36,
+                22,
+                23,
+                39
+            ],
+            "once": true,
+            "item": "1"
+        }
+    ],
+    "items": [
+        {
+            "id": 0,
+            "name": "",
+            "res": "m19_buckets_pop_png"
+        },
+        {
+            "id": 1,
+            "name": "",
+            "res": "m155_buckets2_pop_png"
+        }
+    ],
+    "actions": [
+        {
+            "id": 0,
+            "actor": "bucket",
+            "todo": {
+                "props": {
+                    "visible": true
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 1,
+            "actor": "bucket",
+            "todo": {
+                "props": {
+                    "visible": false
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 2,
+            "actor": "door1",
+            "todo": {
+                "props": {
+                    "visible": true
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 3,
+            "actor": "door1",
+            "todo": {
+                "props": {
+                    "visible": false
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 4,
+            "actor": "door2",
+            "todo": {
+                "props": {
+                    "visible": false
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 5,
+            "actor": "door2",
+            "todo": {
+                "props": {
+                    "visible": true
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 6,
+            "actor": "gori2",
+            "todo": {
+                "props": {
+                    "visible": false
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 7,
+            "actor": "gori2",
+            "todo": {
+                "props": {
+                    "visible": true
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 8,
+            "actor": "buka6",
+            "todo": {
+                "props": {
+                    "visible": false
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 9,
+            "actor": "buka6",
+            "todo": {
+                "props": {
+                    "visible": true
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 10,
+            "actor": "buka7",
+            "todo": {
+                "props": {
+                    "visible": false
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 11,
+            "actor": "buka7",
+            "todo": {
+                "props": {
+                    "visible": true
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 12,
+            "actor": "yan1",
+            "todo": {
+                "props": {
+                    "visible": true
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 13,
+            "actor": "yan1",
+            "todo": {
+                "props": {
+                    "visible": false
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 14,
+            "actor": "yan2",
+            "todo": {
+                "props": {
+                    "visible": false
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 15,
+            "actor": "yan2",
+            "todo": {
+                "props": {
+                    "visible": true
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 16,
+            "actor": "yan2",
+            "todo": {
+                "props": {
+                    "x": -300,
+                    "visible": true
+                },
+                "type": "tween",
+                "time": "3000"
+            }
+        },
+        {
+            "id": 17,
+            "actor": "buka56",
+            "todo": {
+                "props": {
+                    "visible": false
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 18,
+            "actor": "buka56",
+            "todo": {
+                "props": {
+                    "visible": true
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 19,
+            "actor": "buka8",
+            "todo": {
+                "props": {
+                    "visible": false
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 20,
+            "actor": "buka8",
+            "todo": {
+                "props": {
+                    "visible": true
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 21,
+            "actor": "boss1",
+            "todo": {
+                "props": {
+                    "x": 897,
+                    "visible": true
+                },
+                "type": "tween",
+                "time": "2000"
+            }
+        },
+        {
+            "id": 22,
+            "actor": "boss1",
+            "todo": {
+                "props": {
+                    "visible": false
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 23,
+            "actor": "boss2",
+            "todo": {
+                "props": {
+                    "visible": true
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 24,
+            "actor": "boss1",
+            "todo": {
+                "props": {
+                    "x": 1440,
+                    "visible": true
+                },
+                "type": "tween",
+                "time": "3000"
+            }
+        },
+        {
+            "id": 25,
+            "actor": "buka2",
+            "todo": {
+                "props": {
+                    "visible": false
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 26,
+            "actor": "buka2",
+            "todo": {
+                "props": {
+                    "visible": true
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 27,
+            "actor": "buka2",
+            "todo": {
+                "props": {
+                    "x": -300,
+                    "visible": true
+                },
+                "type": "tween",
+                "time": "2000"
+            }
+        },
+        {
+            "id": 28,
+            "actor": "mActor",
+            "todo": {
+                "props": {
+                    "visible": true
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 29,
+            "actor": "mActor",
+            "todo": {
+                "props": {
+                    "visible": false
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 30,
+            "actor": "mActor",
+            "todo": {
+                "props": {},
+                "type": "wait",
+                "time": "1500"
+            }
+        },
+        {
+            "id": 31,
+            "actor": "mActor",
+            "todo": {
+                "props": {},
+                "type": "sound",
+                "res": "result0_mp3"
+            }
+        },
+        {
+            "id": 32,
+            "actor": "mActor",
+            "todo": {
+                "props": {},
+                "type": "sound",
+                "res": "set_mp3"
+            }
+        },
+        {
+            "id": 33,
+            "actor": "mActor",
+            "todo": {
+                "props": {},
+                "type": "sound",
+                "res": "bukaAway_mp3"
+            }
+        },
+        {
+            "id": 34,
+            "actor": "mActor",
+            "todo": {
+                "props": {},
+                "type": "sound",
+                "res": "roomDoor_mp3"
+            }
+        },
+        {
+            "id": 35,
+            "actor": "mActor",
+            "todo": {
+                "props": {},
+                "type": "sound",
+                "res": "buka_mp3"
+            }
+        },
+        {
+            "id": 36,
+            "actor": "mActor",
+            "todo": {
+                "props": {},
+                "type": "sound",
+                "res": "question_mp3"
+            }
+        },
+        {
+            "id": 37,
+            "actor": "mActor",
+            "todo": {
+                "props": {},
+                "type": "sound",
+                "res": "ex_mp3"
+            }
+        },
+        {
+            "id": 38,
+            "actor": "mActor",
+            "todo": {
+                "props": {},
+                "type": "sound",
+                "res": "result2_mp3"
+            }
+        },
+        {
+            "id": 39,
+            "actor": "mActor",
+            "todo": {
+                "props": {},
+                "type": "over",
+                "res": "go01_png"
+            }
+        },
+        {
+            "id": 40,
+            "actor": "mActor",
+            "todo": {
+                "props": {},
+                "res": "cl01_png",
+                "type": "clear"
+            }
+        },
+        {
+            "id": 41,
+            "actor": "mActor",
+            "todo": {
+                "props": {},
+                "type": "item",
+                "item": "0"
+            }
+        },
+        {
+            "id": 42,
+            "actor": "mActor",
+            "todo": {
+                "props": {},
+                "type": "item",
+                "item": "1"
+            }
+        },
+        {
+            "id": 43,
+            "actor": "mActor",
+            "todo": {
+                "props": {},
+                "type": "over",
+                "res": "go02_png"
+            }
+        }
+    ],
+    "animates": [],
+    "hints": "站在走廊里蒙混过关！;从不良少年手上拿到水桶后，拖到走廊！"
+}

@@ -1,0 +1,968 @@
+{
+    "init": [
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite",
+            "props": {
+                "y": 0,
+                "x": 0,
+                "texture": "b01_ground.png"
+            },
+            "nodeParent": 2,
+            "label": "Sprite",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 3,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,bench",
+            "props": {
+                "y": 528,
+                "x": 953,
+                "var": "bench",
+                "texture": "m02_bench1.png"
+            },
+            "nodeParent": 2,
+            "label": "bench",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 4,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,sheet",
+            "props": {
+                "y": 276,
+                "x": 228,
+                "var": "sheet",
+                "texture": "m11_sheet.png",
+                "rotation": -70.7
+            },
+            "nodeParent": 2,
+            "label": "sheet",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 6,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,crack1",
+            "props": {
+                "y": 746,
+                "x": 1045,
+                "var": "crack1",
+                "texture": "m05_crack1.png"
+            },
+            "nodeParent": 2,
+            "label": "crack1",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 7,
+            "child": [],
+            "$HIDDEN": false
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,helper",
+            "props": {
+                "y": 646,
+                "x": 975,
+                "var": "helper",
+                "texture": "helper.png"
+            },
+            "nodeParent": 2,
+            "label": "helper",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 7,
+            "child": [],
+            "$HIDDEN": false
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,hole2",
+            "props": {
+                "y": 710,
+                "x": 929,
+                "visible": false,
+                "var": "hole2",
+                "texture": "m07_hole2.png"
+            },
+            "nodeParent": 2,
+            "label": "hole2",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 8,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,tools2",
+            "props": {
+                "y": 276,
+                "x": 144,
+                "visible": false,
+                "var": "tools2",
+                "texture": "m09_tools2.png"
+            },
+            "nodeParent": 2,
+            "label": "tools2",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 9,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,shovel",
+            "props": {
+                "y": 444,
+                "x": 393,
+                "visible": true,
+                "var": "shovel",
+                "texture": "m10_shovel.png"
+            },
+            "nodeParent": 2,
+            "label": "shovel",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 10,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,tools1",
+            "props": {
+                "y": 276,
+                "x": 144,
+                "var": "tools1",
+                "texture": "m08_tools1.png"
+            },
+            "nodeParent": 2,
+            "label": "tools1",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 5,
+            "child": [],
+            "$HIDDEN": false
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,mActor",
+            "props": {
+                "y": 746,
+                "x": 452,
+                "var": "mActor",
+                "texture": "c67_buka0.png"
+            },
+            "nodeParent": 2,
+            "label": "mActor",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 11,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,buka4",
+            "props": {
+                "y": 442,
+                "x": 969,
+                "visible": false,
+                "var": "buka4",
+                "texture": "c04_buka4.png"
+            },
+            "nodeParent": 2,
+            "label": "buka4",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 14,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,hole1",
+            "props": {
+                "y": 722,
+                "x": 975,
+                "visible": false,
+                "var": "hole1",
+                "texture": "m06_hole1.png"
+            },
+            "nodeParent": 2,
+            "label": "hole1",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 17,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,boss15",
+            "props": {
+                "y": 672,
+                "x": 1029,
+                "visible": false,
+                "var": "boss15",
+                "texture": "c69_boss15.png"
+            },
+            "nodeParent": 2,
+            "label": "boss15",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 16,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,boss1",
+            "props": {
+                "y": 692,
+                "x": -230,
+                "var": "boss1",
+                "texture": "c05_boss1.png"
+            },
+            "nodeParent": 2,
+            "label": "boss1",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 12,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,buka21",
+            "props": {
+                "y": 608,
+                "x": 975,
+                "visible": false,
+                "var": "buka21",
+                "texture": "c68_buka21.png"
+            },
+            "nodeParent": 2,
+            "label": "buka21",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 19,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,boss3",
+            "props": {
+                "y": 670,
+                "x": 935,
+                "visible": false,
+                "var": "boss3",
+                "texture": "c09_boss3.png"
+            },
+            "nodeParent": 2,
+            "label": "boss3",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 20,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite,boss2",
+            "props": {
+                "y": 698,
+                "x": 1009,
+                "visible": false,
+                "var": "boss2",
+                "texture": "c06_boss2.png"
+            },
+            "nodeParent": 2,
+            "label": "boss2",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 13,
+            "child": []
+        },
+        {
+            "x": 15,
+            "type": "Sprite",
+            "searchKey": "Sprite",
+            "props": {
+                "y": 412,
+                "x": 807,
+                "var": "buka2",
+                "visible": false,
+                "texture": "c02_buka2.png"
+            },
+            "nodeParent": 2,
+            "label": "Sprite",
+            "isDirectory": false,
+            "isAniNode": true,
+            "hasChild": false,
+            "compId": 21,
+            "child": []
+        }
+    ],
+    "keys": [
+        {
+            "id": 0,
+            "isOn": false
+        },
+        {
+            "id": 1,
+            "isOn": false
+        }
+    ],
+    "events": [
+        {
+            "id": 0,
+            "bind": "tools1",
+            "type": "touch",
+            "on": [
+                0,
+                1,
+                2,
+                3
+            ],
+            "once": true,
+            "lock": [],
+            "item": null
+        },
+        {
+            "id": 1,
+            "bind": "bench",
+            "type": "touch",
+            "on": [
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15
+            ],
+            "once": true,
+            "lock": [
+                {
+                    "id": 0,
+                    "isOn": false
+                }
+            ],
+            "item": null
+        },
+        {
+            "id": 2,
+            "bind": "sheet",
+            "type": "touch",
+            "on": [
+                16,
+                17
+            ],
+            "once": true,
+            "lock": [],
+            "item": null
+        },
+        {
+            "id": 3,
+            "bind": "shovel",
+            "type": "touch",
+            "on": [
+                18,
+                19
+            ],
+            "once": true,
+            "lock": [],
+            "item": null
+        },
+        {
+            "id": 4,
+            "bind": "bench",
+            "type": "touch",
+            "on": [
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                25,
+                26,
+                27,
+                28,
+                43,
+                29,
+                30,
+                31,
+                32,
+                33,
+                34,
+                35
+            ],
+            "once": true,
+            "lock": [
+                {
+                    "id": 0,
+                    "isOn": true
+                }
+            ],
+            "item": null
+        },
+        {
+            "id": 5,
+            "bind": "hole1",
+            "type": "touch",
+            "on": [
+                4,
+                36,
+                37,
+                43,
+                38
+            ],
+            "once": true,
+            "lock": [
+                {
+                    "id": 1,
+                    "isOn": true
+                }
+            ],
+            "item": null
+        },
+        {
+            "id": 6,
+            "bind": "helper",
+            "type": "use_item",
+            "on": [
+                20,
+                21,
+                39,
+                44,
+                41
+            ],
+            "once": false,
+            "lock": [],
+            "item": "0"
+        },
+        {
+            "id": 7,
+            "bind": "hole1",
+            "type": "use_item",
+            "on": [
+                22,
+                23,
+                24,
+                40,
+                42
+            ],
+            "once": false,
+            "lock": [],
+            "item": "1"
+        }
+    ],
+    "items": [
+        {
+            "id": 0,
+            "name": "",
+            "res": "m10_shovel_pop_png"
+        },
+        {
+            "id": 1,
+            "name": "",
+            "res": "m11_sheet_pop_png"
+        }
+    ],
+    "actions": [
+        {
+            "id": 0,
+            "actor": "tools1",
+            "todo": {
+                "props": {
+                    "visible": false
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 1,
+            "actor": "tools2",
+            "todo": {
+                "props": {
+                    "visible": true
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 2,
+            "actor": "shovel",
+            "todo": {
+                "props": {
+                    "visible": true
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 3,
+            "actor": "mActor",
+            "todo": {
+                "props": {},
+                "type": "sound",
+                "res": "locker_mp3"
+            }
+        },
+        {
+            "id": 4,
+            "actor": "mActor",
+            "todo": {
+                "props": {
+                    "visible": false
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 5,
+            "actor": "buka4",
+            "todo": {
+                "props": {
+                    "visible": true
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 6,
+            "actor": "mActor",
+            "todo": {
+                "props": {},
+                "type": "sound",
+                "res": "set_mp3"
+            }
+        },
+        {
+            "id": 7,
+            "actor": "boss1",
+            "todo": {
+                "props": {
+                    "x": 969,
+                    "visible": true
+                },
+                "type": "tween",
+                "time": 1500
+            }
+        },
+        {
+            "id": 8,
+            "actor": "boss2",
+            "todo": {
+                "props": {
+                    "x": 980,
+                    "y": 700,
+                    "visible": true
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 9,
+            "actor": "boss1",
+            "todo": {
+                "props": {
+                    "visible": false
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 10,
+            "actor": "mActor",
+            "todo": {
+                "props": {},
+                "type": "sound",
+                "res": "question_mp3"
+            }
+        },
+        {
+            "id": 11,
+            "actor": "boss15",
+            "todo": {
+                "props": {
+                    "visible": true
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 12,
+            "actor": "boss2",
+            "todo": {
+                "props": {
+                    "visible": false
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 13,
+            "actor": "mActor",
+            "todo": {
+                "props": {},
+                "type": "sound",
+                "res": "ex_mp3"
+            }
+        },
+        {
+            "id": 14,
+            "actor": "boss15",
+            "todo": {
+                "props": {
+                    "x": 1141,
+                    "y": 464,
+                    "visible": true
+                },
+                "type": "tween",
+                "time": 400
+            }
+        },
+        {
+            "id": 15,
+            "actor": "mActor",
+            "todo": {
+                "props": {},
+                "type": "over",
+                "res": "go01_png"
+            }
+        },
+        {
+            "id": 16,
+            "actor": "sheet",
+            "todo": {
+                "props": {
+                    "visible": false
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 17,
+            "actor": "mActor",
+            "todo": {
+                "props": {},
+                "type": "item",
+                "item": "1"
+            }
+        },
+        {
+            "id": 18,
+            "actor": "shovel",
+            "todo": {
+                "props": {
+                    "visible": false
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 19,
+            "actor": "mActor",
+            "todo": {
+                "props": {},
+                "type": "item",
+                "item": "0"
+            }
+        },
+        {
+            "id": 20,
+            "actor": "hole1",
+            "todo": {
+                "props": {
+                    "visible": true
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 21,
+            "actor": "mActor",
+            "todo": {
+                "props": {},
+                "type": "sound",
+                "res": "dig_mp3"
+            }
+        },
+        {
+            "id": 22,
+            "actor": "hole2",
+            "todo": {
+                "props": {
+                    "visible": true
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 23,
+            "actor": "mActor",
+            "todo": {
+                "props": {},
+                "type": "sound",
+                "res": "clothe_mp3"
+            }
+        },
+        {
+            "id": 24,
+            "actor": "mActor",
+            "todo": {
+                "props": {},
+                "type": "key",
+                "key": {
+                    "id": 0,
+                    "isOn": true
+                }
+            }
+        },
+        {
+            "id": 25,
+            "actor": "boss15",
+            "todo": {
+                "props": {
+                    "y": 710,
+                    "visible": true
+                },
+                "type": "tween",
+                "time": 300
+            }
+        },
+        {
+            "id": 26,
+            "actor": "boss15",
+            "todo": {
+                "props": {
+                    "visible": false
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 27,
+            "actor": "boss3",
+            "todo": {
+                "props": {
+                    "visible": true
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 28,
+            "actor": "mActor",
+            "todo": {
+                "props": {},
+                "type": "sound",
+                "res": "otoshi_mp3"
+            }
+        },
+        {
+            "id": 29,
+            "actor": "buka4",
+            "todo": {
+                "props": {
+                    "visible": false
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 30,
+            "actor": "buka2",
+            "todo": {
+                "props": {
+                    "visible": true
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 31,
+            "actor": "mActor",
+            "todo": {
+                "props": {},
+                "type": "sound",
+                "res": "buka_mp3"
+            }
+        },
+        {
+            "id": 32,
+            "actor": "mActor",
+            "todo": {
+                "props": {},
+                "type": "wait",
+                "time": "500"
+            }
+        },
+        {
+            "id": 33,
+            "actor": "mActor",
+            "todo": {
+                "props": {},
+                "type": "sound",
+                "res": "bukaAway_mp3"
+            }
+        },
+        {
+            "id": 34,
+            "actor": "buka2",
+            "todo": {
+                "props": {
+                    "x": -200,
+                    "visible": true
+                },
+                "type": "tween",
+                "time": 1000
+            }
+        },
+        {
+            "id": 35,
+            "actor": "mActor",
+            "todo": {
+                "props": {},
+                "type": "clear",
+                "res": "cl02_png"
+            }
+        },
+        {
+            "id": 36,
+            "actor": "buka21",
+            "todo": {
+                "props": {
+                    "visible": true
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 37,
+            "actor": "mActor",
+            "todo": {
+                "props": {},
+                "type": "sound",
+                "res": "otoshi_mp3"
+            }
+        },
+        {
+            "id": 38,
+            "actor": "mActor",
+            "todo": {
+                "props": {},
+                "type": "over",
+                "res": "go03_png"
+            }
+        },
+        {
+            "id": 39,
+            "actor": "crack1",
+            "todo": {
+                "props": {
+                    "visible": false
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 40,
+            "actor": "hole1",
+            "todo": {
+                "props": {
+                    "visible": false
+                },
+                "type": "simple"
+            }
+        },
+        {
+            "id": 41,
+            "todo": {
+                "type": "key",
+                "key": {
+                    "id": 1,
+                    "isOn": true
+                }
+            }
+        },
+        {
+            "id": 42,
+            "todo": {
+                "type": "key",
+                "key": {
+                    "id": 1,
+                    "isOn": false
+                }
+            }
+        },
+        {
+            "id": 43,
+            "actor": "hole2",
+            "todo": {
+                "props": {
+                    "visible": false
+                },
+                "type": "simple"
+            }
+        },
+        {
+"id": 44,
+            "actor": "helper",
+            "todo": {
+                "props": {
+                    "visible": false
+                },
+                "type": "simple"
+            }
+        }
+    ],
+    "animates": [],
+    "hints": "用铲子挖洞，让老师掉进陷阱！;挖洞后，用塑料布挡住洞，然后点击长凳！"
+}

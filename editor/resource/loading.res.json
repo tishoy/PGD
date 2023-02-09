@@ -1,0 +1,33 @@
+{
+	"groups":[{
+			"keys":"loading_bg_png,c01_buka1_png,c05_boss1_png,logo_cn_png",
+			"name":"loading_ui"
+		}],
+	"resources":[
+		{
+			"name":"loading_bg_png",
+			"type":"image",
+			"url":"loading/bg.png"
+		},
+		{
+			"name":"start_btn_png",
+			"type":"image",
+			"url":"loading/start_btn.png"
+		},
+		{
+			"name":"c01_buka1_png",
+			"type":"image",
+			"url":"loading/c01_buka1.png"
+		},
+		{
+			"name":"c05_boss1_png",
+			"type":"image",
+			"url":"loading/c05_boss1.png"
+		},
+		{
+			"name":"logo_cn_png",
+			"type":"image",
+			"url":"loading/logo_cn.png"
+		}
+	]
+}
